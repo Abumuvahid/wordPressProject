@@ -1,0 +1,2473 @@
+execve("/usr/bin/php", ["php", "index.php"], [/* 36 vars */]) = 0
+brk(0)                                  = 0x2829000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d604000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56263, ...}) = 0
+mmap(NULL, 56263, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d5f6000
+close(3)                                = 0
+open("/lib64/libcrypt.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=40872, ...}) = 0
+mmap(NULL, 2318816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89d1af000
+mprotect(0x7ff89d1b6000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89d3b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7ff89d3b6000
+mmap(0x7ff89d3b8000, 184800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89d3b8000
+close(3)                                = 0
+open("/usr/lib64/libedit.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\263\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=178816, ...}) = 0
+mmap(NULL, 2288960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89cf80000
+mprotect(0x7ff89cfa9000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89d1a9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7ff89d1a9000
+mmap(0x7ff89d1ac000, 11584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89d1ac000
+close(3)                                = 0
+open("/lib64/libncurses.so.5", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000j\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=139784, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5f5000
+mmap(NULL, 2235304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89cd5e000
+mprotect(0x7ff89cd80000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89cf7f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7ff89cf7f000
+close(3)                                = 0
+open("/usr/lib64/libstdc++.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360c\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=987096, ...}) = 0
+mmap(NULL, 3166648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89ca58000
+mprotect(0x7ff89cb40000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89cd40000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe8000) = 0x7ff89cd40000
+mmap(0x7ff89cd49000, 82360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89cd49000
+close(3)                                = 0
+open("/usr/lib64/libgmp.so.3", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\234\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=374408, ...}) = 0
+mmap(NULL, 2469632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89c7fd000
+mprotect(0x7ff89c853000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89ca53000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x56000) = 0x7ff89ca53000
+close(3)                                = 0
+open("/lib64/libbz2.so.1", O_RDONLY)    = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=67592, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5f4000
+mmap(NULL, 2162768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89c5ec000
+mprotect(0x7ff89c5fc000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89c7fb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7ff89c7fb000
+close(3)                                = 0
+open("/lib64/libz.so.1", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 !\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=88600, ...}) = 0
+mmap(NULL, 2183696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89c3d6000
+mprotect(0x7ff89c3eb000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89c5ea000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7ff89c5ea000
+close(3)                                = 0
+open("/usr/local/pcre8/lib64/libpcre.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=426752, ...}) = 0
+mmap(NULL, 2522136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89c16e000
+mprotect(0x7ff89c1d6000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89c3d5000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x67000) = 0x7ff89c3d5000
+close(3)                                = 0
+open("/lib64/librt.so.1", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=44472, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5f3000
+mmap(NULL, 2128816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89bf66000
+mprotect(0x7ff89bf6d000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89c16c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7ff89c16c000
+close(3)                                = 0
+open("/lib64/libm.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=596864, ...}) = 0
+mmap(NULL, 2633912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89bce2000
+mprotect(0x7ff89bd65000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89bf64000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x7ff89bf64000
+close(3)                                = 0
+open("/lib64/libdl.so.2", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=20024, ...}) = 0
+mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89bade000
+mprotect(0x7ff89bae0000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89bce0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff89bce0000
+close(3)                                = 0
+open("/lib64/libnsl.so.1", O_RDONLY)    = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p@\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=113904, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5f2000
+mmap(NULL, 2198192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89b8c5000
+mprotect(0x7ff89b8db000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89bada000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7ff89bada000
+mmap(0x7ff89badc000, 6832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89badc000
+close(3)                                = 0
+open("/usr/lib64/libxml2.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\346\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1430112, ...}) = 0
+mmap(NULL, 3530552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89b567000
+mprotect(0x7ff89b6bb000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89b8ba000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x153000) = 0x7ff89b8ba000
+mmap(0x7ff89b8c4000, 3896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89b8c4000
+close(3)                                = 0
+open("/lib64/libgssapi_krb5.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\254\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=277704, ...}) = 0
+mmap(NULL, 2373600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89b323000
+mprotect(0x7ff89b364000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89b564000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x41000) = 0x7ff89b564000
+close(3)                                = 0
+open("/lib64/libkrb5.so.3", O_RDONLY)   = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\265\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=946048, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5f1000
+mmap(NULL, 3041984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89b03c000
+mprotect(0x7ff89b118000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89b317000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdb000) = 0x7ff89b317000
+close(3)                                = 0
+open("/lib64/libk5crypto.so.3", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320C\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=174840, ...}) = 0
+mmap(NULL, 2273704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89ae10000
+mprotect(0x7ff89ae39000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89b039000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7ff89b039000
+mmap(0x7ff89b03b000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89b03b000
+close(3)                                = 0
+open("/lib64/libcom_err.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14664, ...}) = 0
+mmap(NULL, 2109872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89ac0c000
+mprotect(0x7ff89ac0f000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89ae0e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff89ae0e000
+close(3)                                = 0
+open("/usr/lib64/libssl.so.10", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\202\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=443416, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5f0000
+mmap(NULL, 2538792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89a9a0000
+mprotect(0x7ff89aa02000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89ac02000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x62000) = 0x7ff89ac02000
+close(3)                                = 0
+open("/usr/lib64/libcrypto.so.10", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\235\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1971488, ...}) = 0
+mmap(NULL, 4083672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89a5bb000
+mprotect(0x7ff89a775000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89a975000, 159744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ba000) = 0x7ff89a975000
+mmap(0x7ff89a99c000, 16344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89a99c000
+close(3)                                = 0
+open("/lib64/libc.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\356\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1924768, ...}) = 0
+mmap(NULL, 3750184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89a227000
+mprotect(0x7ff89a3b1000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89a5b1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18a000) = 0x7ff89a5b1000
+mmap(0x7ff89a5b7000, 14632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89a5b7000
+close(3)                                = 0
+open("/lib64/libresolv.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00009\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=111440, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5ef000
+mmap(NULL, 2202248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89a00d000
+mprotect(0x7ff89a023000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89a223000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7ff89a223000
+mmap(0x7ff89a225000, 6792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89a225000
+close(3)                                = 0
+open("/lib64/libfreebl3.so", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\n\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=10312, ...}) = 0
+mmap(NULL, 2105520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff899e0a000
+mprotect(0x7ff899e0c000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89a00b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7ff89a00b000
+close(3)                                = 0
+open("/lib64/libtinfo.so.5", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\310\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=132408, ...}) = 0
+mmap(NULL, 2228832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff899be9000
+mprotect(0x7ff899c06000, 2093056, PROT_NONE) = 0
+mmap(0x7ff899e05000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7ff899e05000
+mmap(0x7ff899e09000, 608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff899e09000
+close(3)                                = 0
+open("/lib64/libgcc_s.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=90880, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5ee000
+mmap(NULL, 2186584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff8999d3000
+mprotect(0x7ff8999e9000, 2093056, PROT_NONE) = 0
+mmap(0x7ff899be8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7ff899be8000
+close(3)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000^\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=143280, ...}) = 0
+mmap(NULL, 2212848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff8997b6000
+mprotect(0x7ff8997cd000, 2097152, PROT_NONE) = 0
+mmap(0x7ff8999cd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7ff8999cd000
+mmap(0x7ff8999cf000, 13296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff8999cf000
+close(3)                                = 0
+open("/usr/lib64/liblzma.so.5", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=139056, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5ed000
+mmap(NULL, 2234296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff899594000
+mprotect(0x7ff8995b5000, 2097152, PROT_NONE) = 0
+mmap(0x7ff8997b5000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7ff8997b5000
+close(3)                                = 0
+open("/lib64/libkrb5support.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=43728, ...}) = 0
+mmap(NULL, 2139216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff899389000
+mprotect(0x7ff899393000, 2093056, PROT_NONE) = 0
+mmap(0x7ff899592000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7ff899592000
+close(3)                                = 0
+open("/lib64/libkeyutils.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\v\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=10192, ...}) = 0
+mmap(NULL, 2105424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff899186000
+mprotect(0x7ff899188000, 2093056, PROT_NONE) = 0
+mmap(0x7ff899387000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7ff899387000
+close(3)                                = 0
+open("/lib64/libselinux.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PY\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=122056, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5ec000
+mmap(NULL, 2221912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff898f67000
+mprotect(0x7ff898f84000, 2093056, PROT_NONE) = 0
+mmap(0x7ff899183000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7ff899183000
+mmap(0x7ff899185000, 1880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff899185000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5eb000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5ea000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5e8000
+arch_prctl(ARCH_SET_FS, 0x7ff89d5e87e0) = 0
+mprotect(0x7ff899183000, 4096, PROT_READ) = 0
+mprotect(0x7ff899387000, 4096, PROT_READ) = 0
+mprotect(0x7ff899592000, 4096, PROT_READ) = 0
+mprotect(0x7ff8999cd000, 4096, PROT_READ) = 0
+mprotect(0x7ff89a00b000, 4096, PROT_READ) = 0
+mprotect(0x7ff89a223000, 4096, PROT_READ) = 0
+mprotect(0x7ff89a5b1000, 16384, PROT_READ) = 0
+mprotect(0x7ff89a975000, 110592, PROT_READ) = 0
+mprotect(0x7ff89ac02000, 16384, PROT_READ) = 0
+mprotect(0x7ff89ae0e000, 4096, PROT_READ) = 0
+mprotect(0x7ff89b039000, 4096, PROT_READ) = 0
+mprotect(0x7ff89b317000, 40960, PROT_READ) = 0
+mprotect(0x7ff89b564000, 4096, PROT_READ) = 0
+mprotect(0x7ff89bada000, 4096, PROT_READ) = 0
+mprotect(0x7ff89bce0000, 4096, PROT_READ) = 0
+mprotect(0x7ff89bf64000, 4096, PROT_READ) = 0
+mprotect(0x7ff89c16c000, 4096, PROT_READ) = 0
+mprotect(0x7ff89c5ea000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5e7000
+mprotect(0x7ff89cd40000, 28672, PROT_READ) = 0
+mprotect(0x7ff89d3b6000, 4096, PROT_READ) = 0
+mprotect(0x7ff89d605000, 8192, PROT_READ) = 0
+munmap(0x7ff89d5f6000, 56263)           = 0
+set_tid_address(0x7ff89d5e8ab0)         = 861555
+set_robust_list(0x7ff89d5e8ac0, 24)     = 0
+futex(0x7ffea74c043c, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7ffea74c043c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7ff89d5e87e0) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7ff8997bbcb0, [], SA_RESTORER|SA_SIGINFO, 0x7ff8997c57e0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7ff8997bbd40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7ff8997c57e0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=20480*1024, rlim_max=20480*1024}) = 0
+statfs("/selinux", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=757700, f_bfree=244610, f_bavail=205289, f_files=196608, f_ffree=24772, f_fsid={-1287811950, 988612139}, f_namelen=255, f_frsize=4096}) = 0
+brk(0)                                  = 0x2829000
+brk(0x284a000)                          = 0x284a000
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 327
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+open("/etc/pki/tls/legacy-settings", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/usr/share/dracut/modules.d/01fips", F_OK) = -1 ENOENT (No such file or directory)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, {SIG_DFL, [], 0}, 8) = 0
+getcwd("/home/httpd/vhosts/medblanks.ru/httpdocs", 4096) = 41
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d5a6000
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d4a5000
+open("/etc/localtime", O_RDONLY)        = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1486, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1486, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\16\0\0\0\16\0\0\0\0"..., 4096) = 1486
+lseek(3, -911, SEEK_CUR)                = 575
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\17\0\0\0\17\0\0\0\0"..., 4096) = 911
+close(3)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+lstat("/usr/bin/php", {st_mode=S_IFREG|0755, st_size=3829376, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0555, st_size=36864, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/usr/bin/php", X_OK)            = 0
+stat("/usr/bin/php", {st_mode=S_IFREG|0755, st_size=3829376, ...}) = 0
+open("/usr/bin/php-cli.ini", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("/etc/php-cli.ini", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("/usr/bin/php.ini", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("/etc/php.ini", O_RDONLY)          = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0444, st_size=70105, ...}) = 0
+mmap(NULL, 70137, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d493000
+fstat(3, {st_mode=S_IFREG|0444, st_size=70105, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d493000, 70137)           = 0
+close(3)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+open("/etc/php.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+getdents(3, /* 16 entries */, 32768)    = 512
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/etc/php.d/curl.ini", {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+open("/etc/php.d/curl.ini", O_RDONLY)   = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+mmap(NULL, 81, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 81)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/fileinfo.ini", {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+open("/etc/php.d/fileinfo.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 89, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 89)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/gd.ini", {st_mode=S_IFREG|0644, st_size=45, ...}) = 0
+open("/etc/php.d/gd.ini", O_RDONLY)     = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=45, ...}) = 0
+mmap(NULL, 77, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=45, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 77)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/json.ini", {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+open("/etc/php.d/json.ini", O_RDONLY)   = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+mmap(NULL, 81, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 81)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/mbstring.ini", {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+open("/etc/php.d/mbstring.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 89, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=57, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 89)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/mcrypt.ini", {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+open("/etc/php.d/mcrypt.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+mmap(NULL, 85, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 85)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/mysql.ini", {st_mode=S_IFREG|0644, st_size=51, ...}) = 0
+open("/etc/php.d/mysql.ini", O_RDONLY)  = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=51, ...}) = 0
+mmap(NULL, 83, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=51, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 83)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/mysqli.ini", {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+open("/etc/php.d/mysqli.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+mmap(NULL, 85, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=53, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 85)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/pdo.ini", {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+open("/etc/php.d/pdo.ini", O_RDONLY)    = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+mmap(NULL, 79, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 79)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/pdo_mysql.ini", {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+open("/etc/php.d/pdo_mysql.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap(NULL, 91, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 91)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/pdo_sqlite.ini", {st_mode=S_IFREG|0644, st_size=61, ...}) = 0
+open("/etc/php.d/pdo_sqlite.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=61, ...}) = 0
+mmap(NULL, 93, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=61, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 93)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/phar.ini", {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+open("/etc/php.d/phar.ini", O_RDONLY)   = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+mmap(NULL, 81, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=49, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 81)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/sqlite3.ini", {st_mode=S_IFREG|0644, st_size=55, ...}) = 0
+open("/etc/php.d/sqlite3.ini", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=55, ...}) = 0
+mmap(NULL, 87, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=55, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 87)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+stat("/etc/php.d/zip.ini", {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+open("/etc/php.d/zip.ini", O_RDONLY)    = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bdb30) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+mmap(NULL, 79, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d603000
+fstat(3, {st_mode=S_IFREG|0644, st_size=47, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d602000
+lseek(3, 0, SEEK_CUR)                   = 0
+munmap(0x7ff89d603000, 79)              = 0
+close(3)                                = 0
+munmap(0x7ff89d602000, 4096)            = 0
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d456000
+brk(0x286b000)                          = 0x286b000
+brk(0x288d000)                          = 0x288d000
+brk(0x28ae000)                          = 0x28ae000
+futex(0x7ff89bce10ec, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib64/php/modules/curl.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0004\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=69368, ...}) = 0
+mmap(NULL, 2164560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff898d56000
+mprotect(0x7ff898d66000, 2093056, PROT_NONE) = 0
+mmap(0x7ff898f65000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7ff898f65000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56263, ...}) = 0
+mmap(NULL, 56263, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d5f6000
+close(3)                                = 0
+open("/usr/lib64/libcurl.so.4", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\310\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=504704, ...}) = 0
+mmap(NULL, 2600616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff898adb000
+mprotect(0x7ff898b53000, 2097152, PROT_NONE) = 0
+mmap(0x7ff898d53000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x78000) = 0x7ff898d53000
+close(3)                                = 0
+open("/usr/lib64/libcares.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=70992, ...}) = 0
+mmap(NULL, 2166176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff8988ca000
+mprotect(0x7ff8988db000, 2093056, PROT_NONE) = 0
+mmap(0x7ff898ada000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7ff898ada000
+close(3)                                = 0
+open("/usr/lib64/libnghttp2.so.14", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p6\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=131480, ...}) = 0
+mmap(NULL, 2226648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff8986aa000
+mprotect(0x7ff8986c9000, 2093056, PROT_NONE) = 0
+mmap(0x7ff8988c8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7ff8988c8000
+close(3)                                = 0
+open("/usr/lib64/libssh2.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PU\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=179216, ...}) = 0
+mmap(NULL, 2274400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89847e000
+mprotect(0x7ff8984a9000, 2093056, PROT_NONE) = 0
+mmap(0x7ff8986a8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7ff8986a8000
+close(3)                                = 0
+open("/lib64/libldap-2.4.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\364\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=330896, ...}) = 0
+mmap(NULL, 2426160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89822d000
+mprotect(0x7ff89827b000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89847a000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4d000) = 0x7ff89847a000
+close(3)                                = 0
+open("/lib64/liblber-2.4.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0206\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=60512, ...}) = 0
+mmap(NULL, 2155816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89801e000
+mprotect(0x7ff89802c000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89822b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7ff89822b000
+close(3)                                = 0
+open("/usr/lib64/libsasl2.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340F\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=106160, ...}) = 0
+mmap(NULL, 2201520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff897e04000
+mprotect(0x7ff897e1d000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89801c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7ff89801c000
+close(3)                                = 0
+open("/usr/lib64/libssl3.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \302\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=311736, ...}) = 0
+mmap(NULL, 2410344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff897bb7000
+mprotect(0x7ff897bfe000, 2097152, PROT_NONE) = 0
+mmap(0x7ff897dfe000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x47000) = 0x7ff897dfe000
+mmap(0x7ff897e03000, 1896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff897e03000
+close(3)                                = 0
+open("/usr/lib64/libsmime3.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\236\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=181176, ...}) = 0
+mmap(NULL, 2276480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89798b000
+mprotect(0x7ff8979b3000, 2093056, PROT_NONE) = 0
+mmap(0x7ff897bb2000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7ff897bb2000
+close(3)                                = 0
+open("/usr/lib64/libnss3.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\260\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1316592, ...}) = 0
+mmap(NULL, 3417832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff897648000
+mprotect(0x7ff897782000, 2093056, PROT_NONE) = 0
+mmap(0x7ff897981000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x139000) = 0x7ff897981000
+mmap(0x7ff897989000, 5864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff897989000
+close(3)                                = 0
+open("/usr/lib64/libnssutil3.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\303\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=183512, ...}) = 0
+mmap(NULL, 2280176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89741b000
+mprotect(0x7ff897441000, 2093056, PROT_NONE) = 0
+mmap(0x7ff897640000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7ff897640000
+close(3)                                = 0
+open("/lib64/libplds4.so", O_RDONLY)    = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14528, ...}) = 0
+mmap(NULL, 2109704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff897217000
+mprotect(0x7ff89721a000, 2093056, PROT_NONE) = 0
+mmap(0x7ff897419000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff897419000
+close(3)                                = 0
+open("/lib64/libplc4.so", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\24\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=18720, ...}) = 0
+mmap(NULL, 2113912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff897012000
+mprotect(0x7ff897016000, 2093056, PROT_NONE) = 0
+mmap(0x7ff897215000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7ff897215000
+close(3)                                = 0
+open("/lib64/libnspr4.so", O_RDONLY)    = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\317\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=244624, ...}) = 0
+mmap(NULL, 2350304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff896dd4000
+mprotect(0x7ff896e0d000, 2097152, PROT_NONE) = 0
+mmap(0x7ff89700d000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7ff89700d000
+mmap(0x7ff897010000, 7392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff897010000
+close(3)                                = 0
+mprotect(0x7ff89700d000, 4096, PROT_READ) = 0
+mprotect(0x7ff897215000, 4096, PROT_READ) = 0
+mprotect(0x7ff897419000, 4096, PROT_READ) = 0
+mprotect(0x7ff897640000, 28672, PROT_READ) = 0
+mprotect(0x7ff897981000, 24576, PROT_READ) = 0
+mprotect(0x7ff897bb2000, 16384, PROT_READ) = 0
+mprotect(0x7ff897dfe000, 16384, PROT_READ) = 0
+mprotect(0x7ff89801c000, 4096, PROT_READ) = 0
+mprotect(0x7ff89822b000, 4096, PROT_READ) = 0
+mprotect(0x7ff89847a000, 8192, PROT_READ) = 0
+munmap(0x7ff89d5f6000, 56263)           = 0
+open("/usr/lib64/php/modules/fileinfo.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200/\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2708336, ...}) = 0
+mmap(NULL, 4804416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89693f000
+mprotect(0x7ff896bd3000, 2093056, PROT_NONE) = 0
+mmap(0x7ff896dd2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x293000) = 0x7ff896dd2000
+close(3)                                = 0
+open("/usr/lib64/php/modules/gd.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\211\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=335888, ...}) = 0
+mmap(NULL, 2447520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff8966e9000
+mprotect(0x7ff896736000, 2093056, PROT_NONE) = 0
+mmap(0x7ff896935000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4c000) = 0x7ff896935000
+mmap(0x7ff89693b000, 14496, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff89693b000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56263, ...}) = 0
+mmap(NULL, 56263, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d5f6000
+close(3)                                = 0
+open("/usr/lib64/libt1.so.5", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\242\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=296600, ...}) = 0
+mmap(NULL, 2480520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89648b000
+mprotect(0x7ff8964d0000, 2093056, PROT_NONE) = 0
+mmap(0x7ff8966cf000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x44000) = 0x7ff8966cf000
+mmap(0x7ff8966d3000, 88456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff8966d3000
+close(3)                                = 0
+open("/usr/lib64/libX11.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\335\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1297928, ...}) = 0
+mmap(NULL, 3394968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89614e000
+mprotect(0x7ff896285000, 2097152, PROT_NONE) = 0
+mmap(0x7ff896485000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x137000) = 0x7ff896485000
+close(3)                                = 0
+open("/usr/lib64/libXpm.so.4", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`/\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=70320, ...}) = 0
+mmap(NULL, 2165496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff895f3d000
+mprotect(0x7ff895f4e000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89614d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7ff89614d000
+close(3)                                = 0
+open("/usr/lib64/libpng12.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000H\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=155456, ...}) = 0
+mmap(NULL, 2250552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff895d17000
+mprotect(0x7ff895d3c000, 2097152, PROT_NONE) = 0
+mmap(0x7ff895f3c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7ff895f3c000
+close(3)                                = 0
+open("/usr/lib64/libjpeg.so.62", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 =\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=262896, ...}) = 0
+mmap(NULL, 2423648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff895ac7000
+mprotect(0x7ff895b06000, 2097152, PROT_NONE) = 0
+mmap(0x7ff895d06000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3f000) = 0x7ff895d06000
+mmap(0x7ff895d07000, 64352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff895d07000
+close(3)                                = 0
+open("/usr/lib64/libfreetype.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\310\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=644072, ...}) = 0
+mmap(NULL, 2739312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89582a000
+mprotect(0x7ff8958c2000, 2093056, PROT_NONE) = 0
+mmap(0x7ff895ac1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x97000) = 0x7ff895ac1000
+close(3)                                = 0
+open("/usr/lib64/libxcb.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\271\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=151160, ...}) = 0
+mmap(NULL, 2246440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff895605000
+mprotect(0x7ff895629000, 2097152, PROT_NONE) = 0
+mmap(0x7ff895829000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7ff895829000
+close(3)                                = 0
+open("/usr/lib64/libXau.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=10856, ...}) = 0
+mmap(NULL, 2106112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff895402000
+mprotect(0x7ff895404000, 2097152, PROT_NONE) = 0
+mmap(0x7ff895604000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff895604000
+close(3)                                = 0
+munmap(0x7ff89d5f6000, 56263)           = 0
+open("/usr/lib64/php/modules/json.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=41576, ...}) = 0
+mmap(NULL, 2136776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff8951f8000
+mprotect(0x7ff895202000, 2093056, PROT_NONE) = 0
+mmap(0x7ff895401000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7ff895401000
+close(3)                                = 0
+open("/usr/lib64/php/modules/mbstring.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300d\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1300008, ...}) = 0
+mmap(NULL, 3395552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894ebb000
+mprotect(0x7ff894fec000, 2097152, PROT_NONE) = 0
+mmap(0x7ff8951ec000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x131000) = 0x7ff8951ec000
+close(3)                                = 0
+brk(0x28cf000)                          = 0x28cf000
+open("/usr/lib64/php/modules/mcrypt.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 3\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=42200, ...}) = 0
+mmap(NULL, 2137432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894cb1000
+mprotect(0x7ff894cba000, 2093056, PROT_NONE) = 0
+mmap(0x7ff894eb9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7ff894eb9000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56263, ...}) = 0
+mmap(NULL, 56263, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d5f6000
+close(3)                                = 0
+open("/usr/lib64/libmcrypt.so.4", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240R\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=185616, ...}) = 0
+mmap(NULL, 2303840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894a7e000
+mprotect(0x7ff894aa8000, 2097152, PROT_NONE) = 0
+mmap(0x7ff894ca8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7ff894ca8000
+mmap(0x7ff894cab000, 22368, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff894cab000
+close(3)                                = 0
+open("/usr/lib64/libltdl.so.7", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=36880, ...}) = 0
+mmap(NULL, 2132136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894875000
+mprotect(0x7ff89487e000, 2093056, PROT_NONE) = 0
+mmap(0x7ff894a7d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7ff894a7d000
+close(3)                                = 0
+munmap(0x7ff89d5f6000, 56263)           = 0
+open("/usr/lib64/php/modules/mysql.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PB\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=53800, ...}) = 0
+mmap(NULL, 2149160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894668000
+mprotect(0x7ff894673000, 2097152, PROT_NONE) = 0
+mmap(0x7ff894873000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7ff894873000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56263, ...}) = 0
+mmap(NULL, 56263, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d5f6000
+close(3)                                = 0
+open("/usr/lib64/mysql/libmysqlclient.so.16", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20T\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2153112, ...}) = 0
+mmap(NULL, 4253416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894259000
+mprotect(0x7ff894417000, 2093056, PROT_NONE) = 0
+mmap(0x7ff894616000, 331776, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7ff894616000
+mmap(0x7ff894667000, 1768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff894667000
+close(3)                                = 0
+munmap(0x7ff89d5f6000, 56263)           = 0
+open("/usr/lib64/php/modules/mysqli.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\223\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=139896, ...}) = 0
+mmap(NULL, 2236128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff894037000
+mprotect(0x7ff894054000, 2097152, PROT_NONE) = 0
+mmap(0x7ff894254000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7ff894254000
+close(3)                                = 0
+open("/usr/lib64/php/modules/pdo.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PZ\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=101784, ...}) = 0
+mmap(NULL, 2197776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff893e1e000
+mprotect(0x7ff893e34000, 2097152, PROT_NONE) = 0
+mmap(0x7ff894034000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7ff894034000
+close(3)                                = 0
+open("/usr/lib64/php/modules/pdo_mysql.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320&\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=32800, ...}) = 0
+mmap(NULL, 2127984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff893c16000
+mprotect(0x7ff893c1d000, 2097152, PROT_NONE) = 0
+mmap(0x7ff893e1d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7ff893e1d000
+close(3)                                = 0
+open("/usr/lib64/php/modules/pdo_sqlite.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340$\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=25888, ...}) = 0
+mmap(NULL, 2121064, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff893a10000
+mprotect(0x7ff893a16000, 2093056, PROT_NONE) = 0
+mmap(0x7ff893c15000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7ff893c15000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56263, ...}) = 0
+mmap(NULL, 56263, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d5f6000
+close(3)                                = 0
+open("/usr/lib64/libsqlite3.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\212\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=582752, ...}) = 0
+mmap(NULL, 2679408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff893781000
+mprotect(0x7ff89380c000, 2097152, PROT_NONE) = 0
+mmap(0x7ff893a0c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8b000) = 0x7ff893a0c000
+mmap(0x7ff893a0f000, 624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff893a0f000
+close(3)                                = 0
+munmap(0x7ff89d5f6000, 56263)           = 0
+open("/usr/lib64/php/modules/phar.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 g\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=266672, ...}) = 0
+mmap(NULL, 2362984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff893540000
+mprotect(0x7ff89357f000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89377e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e000) = 0x7ff89377e000
+close(3)                                = 0
+open("/usr/lib64/php/modules/sqlite3.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=46064, ...}) = 0
+mmap(NULL, 2141968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff893335000
+mprotect(0x7ff89333f000, 2093056, PROT_NONE) = 0
+mmap(0x7ff89353e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7ff89353e000
+close(3)                                = 0
+open("/usr/lib64/php/modules/zip.so", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`T\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=94808, ...}) = 0
+mmap(NULL, 2190464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff89311e000
+mprotect(0x7ff893133000, 2097152, PROT_NONE) = 0
+mmap(0x7ff893333000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7ff893333000
+close(3)                                = 0
+brk(0x28f0000)                          = 0x28f0000
+futex(0x7ff89b8c4be0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+brk(0x2912000)                          = 0x2912000
+brk(0x2933000)                          = 0x2933000
+brk(0x2954000)                          = 0x2954000
+brk(0x2975000)                          = 0x2975000
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [WINCH], [], 8) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/home/vkuchinskiy/.terminfo", 0x7ffea74bd2e0) = -1 ENOENT (No such file or directory)
+stat("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/etc/terminfo/x/xterm", R_OK)   = -1 ENOENT (No such file or directory)
+stat("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/usr/share/terminfo/x/xterm", R_OK) = 0
+open("/usr/share/terminfo/x/xterm", O_RDONLY) = 3
+read(3, "\32\0010\0&\0\17\0\235\1l\5xterm|xterm terminal"..., 4097) = 3258
+close(3)                                = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=50, ws_col=207, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=50, ws_col=207, ws_xpixel=0, ws_ypixel=0}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_STOP or SNDRV_TIMER_IOCTL_GINFO or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM CONT STOP TSTP WINCH], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+open("/home/vkuchinskiy/.editrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+brk(0x2996000)                          = 0x2996000
+brk(0x29b8000)                          = 0x29b8000
+brk(0x29da000)                          = 0x29da000
+open("/etc/pki/tls/openssl.cnf", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10906, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(3, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+read(3, ": ancient versions of Netscape c"..., 4096) = 4096
+read(3, "against PKIX guidelines but some"..., 4096) = 2714
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = 0
+sendto(3, "\2\0\0\0\22\0\0\0\t\0\0\0services\0", 21, MSG_NOSIGNAL, NULL, 0) = 21
+poll([{fd=3, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"services\0", 9}, {"\270O\3\0\0\0\0\0", 8}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {4}}, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 17
+mmap(NULL, 217016, PROT_READ, MAP_SHARED, 4, 0) = 0x7ff89d421000
+close(4)                                = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+brk(0x29fb000)                          = 0x29fb000
+brk(0x2a21000)                          = 0x2a21000
+open("index.php", O_RDONLY)             = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=12300, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d420000
+read(3, "<?php\r\n/*\r\n====================="..., 4096) = 4096
+lseek(3, 0, SEEK_SET)                   = 0
+getcwd("/home/httpd/vhosts/medblanks.ru/httpdocs", 4096) = 41
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/index.php", {st_mode=S_IFREG|0644, st_size=12300, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+lstat("/home/httpd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+rt_sigaction(SIGPROF, {0x5b5290, [PROF], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [PROF], NULL, 8) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d41f000
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d41e000
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+getcwd("/home/httpd/vhosts/medblanks.ru/httpdocs", 4096) = 41
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bc7b0) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(3, {st_mode=S_IFREG|0644, st_size=12300, ...}) = 0
+mmap(NULL, 12332, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff89d41a000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff8930dd000
+munmap(0x7ff89d41a000, 12332)           = 0
+close(3)                                = 0
+munmap(0x7ff89d420000, 4096)            = 0
+write(2, "PHP Notice:  Undefined index: HT"..., 105) = 105
+write(2, "PHP Notice:  Undefined index: HT"..., 105) = 105
+write(2, "PHP Notice:  Undefined index: HT"..., 105) = 105
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/init.php", {st_mode=S_IFREG|0644, st_size=16894, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/init.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=16894, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=16894, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=16894, ...}) = 0
+mmap(NULL, 16894, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d5ff000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89309c000
+munmap(0x7ff89d5ff000, 16894)           = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/data/config.php", {st_mode=S_IFREG|0644, st_size=4609, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/data", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/data/config.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4609, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4609, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4609, ...}) = 0
+mmap(NULL, 4609, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d602000
+munmap(0x7ff89d602000, 4609)            = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/mysql.php", {st_mode=S_IFREG|0644, st_size=860, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/mysql.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=860, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=860, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=860, ...}) = 0
+mmap(NULL, 860, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d603000
+munmap(0x7ff89d603000, 860)             = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/mysqli.class.php", {st_mode=S_IFREG|0644, st_size=7046, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/mysqli.class.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=7046, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=7046, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=7046, ...}) = 0
+mmap(NULL, 7046, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d602000
+munmap(0x7ff89d602000, 7046)            = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/data/dbconfig.php", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/data/dbconfig.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+mmap(NULL, 388, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d603000
+munmap(0x7ff89d603000, 388)             = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/functions.php", {st_mode=S_IFREG|0644, st_size=40687, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/functions.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=40687, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=40687, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=40687, ...}) = 0
+mmap(NULL, 40687, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d5fa000
+munmap(0x7ff89d5fa000, 40687)           = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/gzip.php", {st_mode=S_IFREG|0644, st_size=2474, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/gzip.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2474, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2474, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2474, ...}) = 0
+mmap(NULL, 2474, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d603000
+munmap(0x7ff89d603000, 2474)            = 0
+close(3)                                = 0
+open("/var/lib/php/session/sess_embredj2rgi1fmlht4dqqmdr32", O_RDWR|O_CREAT|O_NOFOLLOW, 0600) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/cron.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/cron.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/zoneinfo/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+brk(0x2a49000)                          = 0x2a49000
+getdents(3, /* 68 entries */, 32768)    = 1968
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo//Zulu", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//WET", {st_mode=S_IFREG|0644, st_size=1873, ...}) = 0
+stat("/usr/share/zoneinfo//W-SU", {st_mode=S_IFREG|0644, st_size=1486, ...}) = 0
+stat("/usr/share/zoneinfo//Universal", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//UTC", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//US", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//UCT", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//Turkey", {st_mode=S_IFREG|0644, st_size=2110, ...}) = 0
+stat("/usr/share/zoneinfo//Singapore", {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+stat("/usr/share/zoneinfo//ROK", {st_mode=S_IFREG|0644, st_size=517, ...}) = 0
+stat("/usr/share/zoneinfo//ROC", {st_mode=S_IFREG|0644, st_size=748, ...}) = 0
+stat("/usr/share/zoneinfo//Portugal", {st_mode=S_IFREG|0644, st_size=3439, ...}) = 0
+stat("/usr/share/zoneinfo//Poland", {st_mode=S_IFREG|0644, st_size=2679, ...}) = 0
+stat("/usr/share/zoneinfo//Pacific", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//PST8PDT", {st_mode=S_IFREG|0644, st_size=2294, ...}) = 0
+stat("/usr/share/zoneinfo//PRC", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+stat("/usr/share/zoneinfo//Navajo", {st_mode=S_IFREG|0644, st_size=2427, ...}) = 0
+stat("/usr/share/zoneinfo//NZ-CHAT", {st_mode=S_IFREG|0644, st_size=2047, ...}) = 0
+stat("/usr/share/zoneinfo//NZ", {st_mode=S_IFREG|0644, st_size=2434, ...}) = 0
+stat("/usr/share/zoneinfo//Mexico", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//MST7MDT", {st_mode=S_IFREG|0644, st_size=2294, ...}) = 0
+stat("/usr/share/zoneinfo//MST", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//MET", {st_mode=S_IFREG|0644, st_size=2102, ...}) = 0
+stat("/usr/share/zoneinfo//Libya", {st_mode=S_IFREG|0644, st_size=641, ...}) = 0
+stat("/usr/share/zoneinfo//Kwajalein", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+stat("/usr/share/zoneinfo//Japan", {st_mode=S_IFREG|0644, st_size=292, ...}) = 0
+stat("/usr/share/zoneinfo//Jamaica", {st_mode=S_IFREG|0644, st_size=481, ...}) = 0
+stat("/usr/share/zoneinfo//Israel", {st_mode=S_IFREG|0644, st_size=8965, ...}) = 0
+stat("/usr/share/zoneinfo//Iran", {st_mode=S_IFREG|0644, st_size=1674, ...}) = 0
+stat("/usr/share/zoneinfo//Indian", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Iceland", {st_mode=S_IFREG|0644, st_size=1174, ...}) = 0
+stat("/usr/share/zoneinfo//Hongkong", {st_mode=S_IFREG|0644, st_size=1159, ...}) = 0
+stat("/usr/share/zoneinfo//HST", {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+stat("/usr/share/zoneinfo//Greenwich", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//GMT0", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//GMT-0", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//GMT+0", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//GMT", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//GB-Eire", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo//GB", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo//Europe", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Etc", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Eire", {st_mode=S_IFREG|0644, st_size=3533, ...}) = 0
+stat("/usr/share/zoneinfo//Egypt", {st_mode=S_IFREG|0644, st_size=1946, ...}) = 0
+stat("/usr/share/zoneinfo//EST5EDT", {st_mode=S_IFREG|0644, st_size=2294, ...}) = 0
+stat("/usr/share/zoneinfo//EST", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo//EET", {st_mode=S_IFREG|0644, st_size=1876, ...}) = 0
+stat("/usr/share/zoneinfo//Cuba", {st_mode=S_IFREG|0644, st_size=2411, ...}) = 0
+stat("/usr/share/zoneinfo//Chile", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Canada", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//CST6CDT", {st_mode=S_IFREG|0644, st_size=2294, ...}) = 0
+stat("/usr/share/zoneinfo//CET", {st_mode=S_IFREG|0644, st_size=2102, ...}) = 0
+stat("/usr/share/zoneinfo//Brazil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Australia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Atlantic", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Asia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Arctic", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Antarctica", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//America", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo//Africa", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/zoneinfo/Africa", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 56 entries */, 32768)    = 1768
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Africa/Windhoek", {st_mode=S_IFREG|0644, st_size=1566, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Tunis", {st_mode=S_IFREG|0644, st_size=684, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Tripoli", {st_mode=S_IFREG|0644, st_size=641, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Timbuktu", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Sao_Tome", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Porto-Novo", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Ouagadougou", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Nouakchott", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Niamey", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Ndjamena", {st_mode=S_IFREG|0644, st_size=211, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Nairobi", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Monrovia", {st_mode=S_IFREG|0644, st_size=207, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Mogadishu", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Mbabane", {st_mode=S_IFREG|0644, st_size=245, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Maseru", {st_mode=S_IFREG|0644, st_size=245, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Maputo", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Malabo", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Lusaka", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Lubumbashi", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Luanda", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Lome", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Libreville", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Lagos", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Kinshasa", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Kigali", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Khartoum", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Kampala", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Juba", {st_mode=S_IFREG|0644, st_size=669, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Johannesburg", {st_mode=S_IFREG|0644, st_size=245, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Harare", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Gaborone", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Freetown", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/El_Aaiun", {st_mode=S_IFREG|0644, st_size=1445, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Douala", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Djibouti", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Dar_es_Salaam", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Dakar", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Conakry", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Ceuta", {st_mode=S_IFREG|0644, st_size=2033, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Casablanca", {st_mode=S_IFREG|0644, st_size=1599, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Cairo", {st_mode=S_IFREG|0644, st_size=1946, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Bujumbura", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Brazzaville", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Blantyre", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Bissau", {st_mode=S_IFREG|0644, st_size=194, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Banjul", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Bangui", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Bamako", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Asmera", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Asmara", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Algiers", {st_mode=S_IFREG|0644, st_size=734, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Addis_Ababa", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Accra", {st_mode=S_IFREG|0644, st_size=828, ...}) = 0
+stat("/usr/share/zoneinfo/Africa/Abidjan", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+open("/usr/share/zoneinfo/America", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 146 entries */, 32768)   = 4696
+getdents(3, /* 0 entries */, 32768)     = 0
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(4, "MemTotal:       65855116 kB\nMemF"..., 1024) = 1024
+close(4)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/America/Yellowknife", {st_mode=S_IFREG|0644, st_size=1966, ...}) = 0
+stat("/usr/share/zoneinfo/America/Yakutat", {st_mode=S_IFREG|0644, st_size=2288, ...}) = 0
+stat("/usr/share/zoneinfo/America/Winnipeg", {st_mode=S_IFREG|0644, st_size=2865, ...}) = 0
+stat("/usr/share/zoneinfo/America/Whitehorse", {st_mode=S_IFREG|0644, st_size=2067, ...}) = 0
+stat("/usr/share/zoneinfo/America/Virgin", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Vancouver", {st_mode=S_IFREG|0644, st_size=2875, ...}) = 0
+stat("/usr/share/zoneinfo/America/Tortola", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Toronto", {st_mode=S_IFREG|0644, st_size=3477, ...}) = 0
+stat("/usr/share/zoneinfo/America/Tijuana", {st_mode=S_IFREG|0644, st_size=2342, ...}) = 0
+stat("/usr/share/zoneinfo/America/Thunder_Bay", {st_mode=S_IFREG|0644, st_size=2185, ...}) = 0
+stat("/usr/share/zoneinfo/America/Thule", {st_mode=S_IFREG|0644, st_size=1514, ...}) = 0
+stat("/usr/share/zoneinfo/America/Tegucigalpa", {st_mode=S_IFREG|0644, st_size=264, ...}) = 0
+stat("/usr/share/zoneinfo/America/Swift_Current", {st_mode=S_IFREG|0644, st_size=560, ...}) = 0
+stat("/usr/share/zoneinfo/America/St_Vincent", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/St_Thomas", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/St_Lucia", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/St_Kitts", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/St_Johns", {st_mode=S_IFREG|0644, st_size=3622, ...}) = 0
+stat("/usr/share/zoneinfo/America/St_Barthelemy", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Sitka", {st_mode=S_IFREG|0644, st_size=2324, ...}) = 0
+stat("/usr/share/zoneinfo/America/Shiprock", {st_mode=S_IFREG|0644, st_size=2427, ...}) = 0
+stat("/usr/share/zoneinfo/America/Scoresbysund", {st_mode=S_IFREG|0644, st_size=1902, ...}) = 0
+stat("/usr/share/zoneinfo/America/Sao_Paulo", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+stat("/usr/share/zoneinfo/America/Santo_Domingo", {st_mode=S_IFREG|0644, st_size=465, ...}) = 0
+stat("/usr/share/zoneinfo/America/Santiago", {st_mode=S_IFREG|0644, st_size=9289, ...}) = 0
+stat("/usr/share/zoneinfo/America/Santarem", {st_mode=S_IFREG|0644, st_size=604, ...}) = 0
+stat("/usr/share/zoneinfo/America/Santa_Isabel", {st_mode=S_IFREG|0644, st_size=2342, ...}) = 0
+stat("/usr/share/zoneinfo/America/Rosario", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Rio_Branco", {st_mode=S_IFREG|0644, st_size=618, ...}) = 0
+stat("/usr/share/zoneinfo/America/Resolute", {st_mode=S_IFREG|0644, st_size=1900, ...}) = 0
+stat("/usr/share/zoneinfo/America/Regina", {st_mode=S_IFREG|0644, st_size=980, ...}) = 0
+stat("/usr/share/zoneinfo/America/Recife", {st_mode=S_IFREG|0644, st_size=714, ...}) = 0
+stat("/usr/share/zoneinfo/America/Rankin_Inlet", {st_mode=S_IFREG|0644, st_size=1900, ...}) = 0
+stat("/usr/share/zoneinfo/America/Rainy_River", {st_mode=S_IFREG|0644, st_size=2105, ...}) = 0
+stat("/usr/share/zoneinfo/America/Punta_Arenas", {st_mode=S_IFREG|0644, st_size=1871, ...}) = 0
+stat("/usr/share/zoneinfo/America/Puerto_Rico", {st_mode=S_IFREG|0644, st_size=229, ...}) = 0
+stat("/usr/share/zoneinfo/America/Porto_Velho", {st_mode=S_IFREG|0644, st_size=574, ...}) = 0
+stat("/usr/share/zoneinfo/America/Porto_Acre", {st_mode=S_IFREG|0644, st_size=618, ...}) = 0
+stat("/usr/share/zoneinfo/America/Port_of_Spain", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Port-au-Prince", {st_mode=S_IFREG|0644, st_size=1429, ...}) = 0
+stat("/usr/share/zoneinfo/America/Phoenix", {st_mode=S_IFREG|0644, st_size=327, ...}) = 0
+stat("/usr/share/zoneinfo/America/Paramaribo", {st_mode=S_IFREG|0644, st_size=268, ...}) = 0
+stat("/usr/share/zoneinfo/America/Pangnirtung", {st_mode=S_IFREG|0644, st_size=2062, ...}) = 0
+stat("/usr/share/zoneinfo/America/Panama", {st_mode=S_IFREG|0644, st_size=177, ...}) = 0
+stat("/usr/share/zoneinfo/America/Ojinaga", {st_mode=S_IFREG|0644, st_size=1492, ...}) = 0
+stat("/usr/share/zoneinfo/America/North_Dakota", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo/America/Noronha", {st_mode=S_IFREG|0644, st_size=714, ...}) = 0
+stat("/usr/share/zoneinfo/America/Nome", {st_mode=S_IFREG|0644, st_size=2350, ...}) = 0
+stat("/usr/share/zoneinfo/America/Nipigon", {st_mode=S_IFREG|0644, st_size=2105, ...}) = 0
+stat("/usr/share/zoneinfo/America/New_York", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/usr/share/zoneinfo/America/Nassau", {st_mode=S_IFREG|0644, st_size=2270, ...}) = 0
+stat("/usr/share/zoneinfo/America/Montserrat", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Montreal", {st_mode=S_IFREG|0644, st_size=3477, ...}) = 0
+stat("/usr/share/zoneinfo/America/Montevideo", {st_mode=S_IFREG|0644, st_size=1481, ...}) = 0
+stat("/usr/share/zoneinfo/America/Monterrey", {st_mode=S_IFREG|0644, st_size=1402, ...}) = 0
+stat("/usr/share/zoneinfo/America/Moncton", {st_mode=S_IFREG|0644, st_size=3137, ...}) = 0
+stat("/usr/share/zoneinfo/America/Miquelon", {st_mode=S_IFREG|0644, st_size=1668, ...}) = 0
+stat("/usr/share/zoneinfo/America/Mexico_City", {st_mode=S_IFREG|0644, st_size=1604, ...}) = 0
+stat("/usr/share/zoneinfo/America/Metlakatla", {st_mode=S_IFREG|0644, st_size=1392, ...}) = 0
+stat("/usr/share/zoneinfo/America/Merida", {st_mode=S_IFREG|0644, st_size=1426, ...}) = 0
+stat("/usr/share/zoneinfo/America/Menominee", {st_mode=S_IFREG|0644, st_size=2241, ...}) = 0
+stat("/usr/share/zoneinfo/America/Mendoza", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Mazatlan", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/zoneinfo/America/Matamoros", {st_mode=S_IFREG|0644, st_size=1402, ...}) = 0
+stat("/usr/share/zoneinfo/America/Martinique", {st_mode=S_IFREG|0644, st_size=231, ...}) = 0
+stat("/usr/share/zoneinfo/America/Marigot", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Manaus", {st_mode=S_IFREG|0644, st_size=602, ...}) = 0
+stat("/usr/share/zoneinfo/America/Managua", {st_mode=S_IFREG|0644, st_size=421, ...}) = 0
+stat("/usr/share/zoneinfo/America/Maceio", {st_mode=S_IFREG|0644, st_size=742, ...}) = 0
+stat("/usr/share/zoneinfo/America/Lower_Princes", {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+stat("/usr/share/zoneinfo/America/Louisville", {st_mode=S_IFREG|0644, st_size=2755, ...}) = 0
+stat("/usr/share/zoneinfo/America/Los_Angeles", {st_mode=S_IFREG|0644, st_size=2819, ...}) = 0
+stat("/usr/share/zoneinfo/America/Lima", {st_mode=S_IFREG|0644, st_size=395, ...}) = 0
+stat("/usr/share/zoneinfo/America/La_Paz", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+stat("/usr/share/zoneinfo/America/Kralendijk", {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+stat("/usr/share/zoneinfo/America/Knox_IN", {st_mode=S_IFREG|0644, st_size=2395, ...}) = 0
+stat("/usr/share/zoneinfo/America/Kentucky", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo/America/Juneau", {st_mode=S_IFREG|0644, st_size=2336, ...}) = 0
+stat("/usr/share/zoneinfo/America/Jujuy", {st_mode=S_IFREG|0644, st_size=1041, ...}) = 0
+stat("/usr/share/zoneinfo/America/Jamaica", {st_mode=S_IFREG|0644, st_size=481, ...}) = 0
+stat("/usr/share/zoneinfo/America/Iqaluit", {st_mode=S_IFREG|0644, st_size=2000, ...}) = 0
+stat("/usr/share/zoneinfo/America/Inuvik", {st_mode=S_IFREG|0644, st_size=1914, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indianapolis", {st_mode=S_IFREG|0644, st_size=1649, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo/America/Hermosillo", {st_mode=S_IFREG|0644, st_size=424, ...}) = 0
+stat("/usr/share/zoneinfo/America/Havana", {st_mode=S_IFREG|0644, st_size=2411, ...}) = 0
+stat("/usr/share/zoneinfo/America/Halifax", {st_mode=S_IFREG|0644, st_size=3424, ...}) = 0
+stat("/usr/share/zoneinfo/America/Guyana", {st_mode=S_IFREG|0644, st_size=238, ...}) = 0
+stat("/usr/share/zoneinfo/America/Guayaquil", {st_mode=S_IFREG|0644, st_size=231, ...}) = 0
+stat("/usr/share/zoneinfo/America/Guatemala", {st_mode=S_IFREG|0644, st_size=292, ...}) = 0
+stat("/usr/share/zoneinfo/America/Guadeloupe", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Grenada", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Grand_Turk", {st_mode=S_IFREG|0644, st_size=1261, ...}) = 0
+stat("/usr/share/zoneinfo/America/Goose_Bay", {st_mode=S_IFREG|0644, st_size=3177, ...}) = 0
+stat("/usr/share/zoneinfo/America/Godthab", {st_mode=S_IFREG|0644, st_size=8294, ...}) = 0
+stat("/usr/share/zoneinfo/America/Glace_Bay", {st_mode=S_IFREG|0644, st_size=2192, ...}) = 0
+stat("/usr/share/zoneinfo/America/Fortaleza", {st_mode=S_IFREG|0644, st_size=714, ...}) = 0
+stat("/usr/share/zoneinfo/America/Fort_Wayne", {st_mode=S_IFREG|0644, st_size=1649, ...}) = 0
+stat("/usr/share/zoneinfo/America/Fort_Nelson", {st_mode=S_IFREG|0644, st_size=2223, ...}) = 0
+stat("/usr/share/zoneinfo/America/Ensenada", {st_mode=S_IFREG|0644, st_size=2342, ...}) = 0
+stat("/usr/share/zoneinfo/America/El_Salvador", {st_mode=S_IFREG|0644, st_size=236, ...}) = 0
+stat("/usr/share/zoneinfo/America/Eirunepe", {st_mode=S_IFREG|0644, st_size=646, ...}) = 0
+stat("/usr/share/zoneinfo/America/Edmonton", {st_mode=S_IFREG|0644, st_size=2388, ...}) = 0
+stat("/usr/share/zoneinfo/America/Dominica", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Detroit", {st_mode=S_IFREG|0644, st_size=2202, ...}) = 0
+stat("/usr/share/zoneinfo/America/Denver", {st_mode=S_IFREG|0644, st_size=2427, ...}) = 0
+stat("/usr/share/zoneinfo/America/Dawson_Creek", {st_mode=S_IFREG|0644, st_size=1033, ...}) = 0
+stat("/usr/share/zoneinfo/America/Dawson", {st_mode=S_IFREG|0644, st_size=2067, ...}) = 0
+stat("/usr/share/zoneinfo/America/Danmarkshavn", {st_mode=S_IFREG|0644, st_size=698, ...}) = 0
+stat("/usr/share/zoneinfo/America/Curacao", {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+stat("/usr/share/zoneinfo/America/Cuiaba", {st_mode=S_IFREG|0644, st_size=1974, ...}) = 0
+stat("/usr/share/zoneinfo/America/Creston", {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+stat("/usr/share/zoneinfo/America/Costa_Rica", {st_mode=S_IFREG|0644, st_size=315, ...}) = 0
+stat("/usr/share/zoneinfo/America/Cordoba", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Coral_Harbour", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/usr/share/zoneinfo/America/Chihuahua", {st_mode=S_IFREG|0644, st_size=1492, ...}) = 0
+stat("/usr/share/zoneinfo/America/Chicago", {st_mode=S_IFREG|0644, st_size=3543, ...}) = 0
+stat("/usr/share/zoneinfo/America/Cayman", {st_mode=S_IFREG|0644, st_size=177, ...}) = 0
+stat("/usr/share/zoneinfo/America/Cayenne", {st_mode=S_IFREG|0644, st_size=196, ...}) = 0
+stat("/usr/share/zoneinfo/America/Catamarca", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Caracas", {st_mode=S_IFREG|0644, st_size=249, ...}) = 0
+stat("/usr/share/zoneinfo/America/Cancun", {st_mode=S_IFREG|0644, st_size=802, ...}) = 0
+stat("/usr/share/zoneinfo/America/Campo_Grande", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+stat("/usr/share/zoneinfo/America/Cambridge_Bay", {st_mode=S_IFREG|0644, st_size=2052, ...}) = 0
+stat("/usr/share/zoneinfo/America/Buenos_Aires", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Boise", {st_mode=S_IFREG|0644, st_size=2377, ...}) = 0
+stat("/usr/share/zoneinfo/America/Bogota", {st_mode=S_IFREG|0644, st_size=231, ...}) = 0
+stat("/usr/share/zoneinfo/America/Boa_Vista", {st_mode=S_IFREG|0644, st_size=630, ...}) = 0
+stat("/usr/share/zoneinfo/America/Blanc-Sablon", {st_mode=S_IFREG|0644, st_size=281, ...}) = 0
+stat("/usr/share/zoneinfo/America/Belize", {st_mode=S_IFREG|0644, st_size=964, ...}) = 0
+stat("/usr/share/zoneinfo/America/Belem", {st_mode=S_IFREG|0644, st_size=574, ...}) = 0
+stat("/usr/share/zoneinfo/America/Barbados", {st_mode=S_IFREG|0644, st_size=330, ...}) = 0
+stat("/usr/share/zoneinfo/America/Bahia_Banderas", {st_mode=S_IFREG|0644, st_size=1558, ...}) = 0
+stat("/usr/share/zoneinfo/America/Bahia", {st_mode=S_IFREG|0644, st_size=1022, ...}) = 0
+stat("/usr/share/zoneinfo/America/Atka", {st_mode=S_IFREG|0644, st_size=2339, ...}) = 0
+stat("/usr/share/zoneinfo/America/Atikokan", {st_mode=S_IFREG|0644, st_size=319, ...}) = 0
+stat("/usr/share/zoneinfo/America/Asuncion", {st_mode=S_IFREG|0644, st_size=2021, ...}) = 0
+stat("/usr/share/zoneinfo/America/Aruba", {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/zoneinfo/America/Araguaina", {st_mode=S_IFREG|0644, st_size=882, ...}) = 0
+stat("/usr/share/zoneinfo/America/Antigua", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Anguilla", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/America/Anchorage", {st_mode=S_IFREG|0644, st_size=2354, ...}) = 0
+stat("/usr/share/zoneinfo/America/Adak", {st_mode=S_IFREG|0644, st_size=2339, ...}) = 0
+open("/usr/share/zoneinfo/America/Argentina", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 15 entries */, 32768)    = 472
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/America/Argentina/Ushuaia", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Tucuman", {st_mode=S_IFREG|0644, st_size=1097, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/San_Luis", {st_mode=S_IFREG|0644, st_size=1083, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/San_Juan", {st_mode=S_IFREG|0644, st_size=1083, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Salta", {st_mode=S_IFREG|0644, st_size=1041, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Rio_Gallegos", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Mendoza", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/La_Rioja", {st_mode=S_IFREG|0644, st_size=1083, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Jujuy", {st_mode=S_IFREG|0644, st_size=1041, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Cordoba", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/ComodRivadavia", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Catamarca", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+stat("/usr/share/zoneinfo/America/Argentina/Buenos_Aires", {st_mode=S_IFREG|0644, st_size=1069, ...}) = 0
+open("/usr/share/zoneinfo/America/Indiana", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 10 entries */, 32768)    = 296
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/America/Indiana/Winamac", {st_mode=S_IFREG|0644, st_size=1761, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Vincennes", {st_mode=S_IFREG|0644, st_size=1677, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Vevay", {st_mode=S_IFREG|0644, st_size=1397, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Tell_City", {st_mode=S_IFREG|0644, st_size=1677, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Petersburg", {st_mode=S_IFREG|0644, st_size=1887, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Marengo", {st_mode=S_IFREG|0644, st_size=1705, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Knox", {st_mode=S_IFREG|0644, st_size=2395, ...}) = 0
+stat("/usr/share/zoneinfo/America/Indiana/Indianapolis", {st_mode=S_IFREG|0644, st_size=1649, ...}) = 0
+open("/usr/share/zoneinfo/America/Kentucky", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 4 entries */, 32768)     = 112
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/America/Kentucky/Monticello", {st_mode=S_IFREG|0644, st_size=2335, ...}) = 0
+stat("/usr/share/zoneinfo/America/Kentucky/Louisville", {st_mode=S_IFREG|0644, st_size=2755, ...}) = 0
+open("/usr/share/zoneinfo/America/North_Dakota", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 5 entries */, 32768)     = 144
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/America/North_Dakota/New_Salem", {st_mode=S_IFREG|0644, st_size=2363, ...}) = 0
+stat("/usr/share/zoneinfo/America/North_Dakota/Center", {st_mode=S_IFREG|0644, st_size=2363, ...}) = 0
+stat("/usr/share/zoneinfo/America/North_Dakota/Beulah", {st_mode=S_IFREG|0644, st_size=2363, ...}) = 0
+open("/usr/share/zoneinfo/Antarctica", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 14 entries */, 32768)    = 440
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Antarctica/Vostok", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Troll", {st_mode=S_IFREG|0644, st_size=1148, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Syowa", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/South_Pole", {st_mode=S_IFREG|0644, st_size=2434, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Rothera", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Palmer", {st_mode=S_IFREG|0644, st_size=1388, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/McMurdo", {st_mode=S_IFREG|0644, st_size=2434, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Mawson", {st_mode=S_IFREG|0644, st_size=197, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Macquarie", {st_mode=S_IFREG|0644, st_size=1507, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/DumontDUrville", {st_mode=S_IFREG|0644, st_size=188, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Davis", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+stat("/usr/share/zoneinfo/Antarctica/Casey", {st_mode=S_IFREG|0644, st_size=270, ...}) = 0
+open("/usr/share/zoneinfo/Arctic", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 3 entries */, 32768)     = 80
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Arctic/Longyearbyen", {st_mode=S_IFREG|0644, st_size=2225, ...}) = 0
+open("/usr/share/zoneinfo/Asia", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 100 entries */, 32768)   = 3152
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Asia/Yerevan", {st_mode=S_IFREG|0644, st_size=1139, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Yekaterinburg", {st_mode=S_IFREG|0644, st_size=1221, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Yangon", {st_mode=S_IFREG|0644, st_size=241, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Yakutsk", {st_mode=S_IFREG|0644, st_size=1183, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Vladivostok", {st_mode=S_IFREG|0644, st_size=1184, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Vientiane", {st_mode=S_IFREG|0644, st_size=180, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ust-Nera", {st_mode=S_IFREG|0644, st_size=1230, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Urumqi", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ulan_Bator", {st_mode=S_IFREG|0644, st_size=893, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ulaanbaatar", {st_mode=S_IFREG|0644, st_size=893, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ujung_Pandang", {st_mode=S_IFREG|0644, st_size=274, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Tomsk", {st_mode=S_IFREG|0644, st_size=1211, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Tokyo", {st_mode=S_IFREG|0644, st_size=292, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Thimphu", {st_mode=S_IFREG|0644, st_size=201, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Thimbu", {st_mode=S_IFREG|0644, st_size=201, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Tel_Aviv", {st_mode=S_IFREG|0644, st_size=8965, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Tehran", {st_mode=S_IFREG|0644, st_size=1674, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Tbilisi", {st_mode=S_IFREG|0644, st_size=1024, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Tashkent", {st_mode=S_IFREG|0644, st_size=607, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Taipei", {st_mode=S_IFREG|0644, st_size=748, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Srednekolymsk", {st_mode=S_IFREG|0644, st_size=1184, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Singapore", {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Shanghai", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Seoul", {st_mode=S_IFREG|0644, st_size=517, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Samarkand", {st_mode=S_IFREG|0644, st_size=591, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Sakhalin", {st_mode=S_IFREG|0644, st_size=1190, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Saigon", {st_mode=S_IFREG|0644, st_size=345, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Riyadh", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Rangoon", {st_mode=S_IFREG|0644, st_size=241, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Qyzylorda", {st_mode=S_IFREG|0644, st_size=1003, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Qatar", {st_mode=S_IFREG|0644, st_size=197, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Pyongyang", {st_mode=S_IFREG|0644, st_size=242, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Pontianak", {st_mode=S_IFREG|0644, st_size=381, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Phnom_Penh", {st_mode=S_IFREG|0644, st_size=180, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Oral", {st_mode=S_IFREG|0644, st_size=995, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Omsk", {st_mode=S_IFREG|0644, st_size=1183, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Novosibirsk", {st_mode=S_IFREG|0644, st_size=1211, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Novokuznetsk", {st_mode=S_IFREG|0644, st_size=1153, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Nicosia", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Muscat", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Manila", {st_mode=S_IFREG|0644, st_size=311, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Makassar", {st_mode=S_IFREG|0644, st_size=274, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Magadan", {st_mode=S_IFREG|0644, st_size=1198, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Macau", {st_mode=S_IFREG|0644, st_size=741, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Macao", {st_mode=S_IFREG|0644, st_size=741, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kuwait", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kuching", {st_mode=S_IFREG|0644, st_size=477, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kuala_Lumpur", {st_mode=S_IFREG|0644, st_size=384, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Krasnoyarsk", {st_mode=S_IFREG|0644, st_size=1183, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kolkata", {st_mode=S_IFREG|0644, st_size=267, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Khandyga", {st_mode=S_IFREG|0644, st_size=1267, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Katmandu", {st_mode=S_IFREG|0644, st_size=210, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kathmandu", {st_mode=S_IFREG|0644, st_size=210, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kashgar", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Karachi", {st_mode=S_IFREG|0644, st_size=403, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kamchatka", {st_mode=S_IFREG|0644, st_size=1154, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Kabul", {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Jerusalem", {st_mode=S_IFREG|0644, st_size=8965, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Jayapura", {st_mode=S_IFREG|0644, st_size=237, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Jakarta", {st_mode=S_IFREG|0644, st_size=366, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Istanbul", {st_mode=S_IFREG|0644, st_size=2110, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Irkutsk", {st_mode=S_IFREG|0644, st_size=1204, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Hovd", {st_mode=S_IFREG|0644, st_size=893, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Hong_Kong", {st_mode=S_IFREG|0644, st_size=1159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ho_Chi_Minh", {st_mode=S_IFREG|0644, st_size=345, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Hebron", {st_mode=S_IFREG|0644, st_size=2297, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Harbin", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Gaza", {st_mode=S_IFREG|0644, st_size=2269, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Famagusta", {st_mode=S_IFREG|0644, st_size=1417, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Dushanbe", {st_mode=S_IFREG|0644, st_size=593, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Dubai", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Dili", {st_mode=S_IFREG|0644, st_size=225, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Dhaka", {st_mode=S_IFREG|0644, st_size=330, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Damascus", {st_mode=S_IFREG|0644, st_size=2306, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Dacca", {st_mode=S_IFREG|0644, st_size=330, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Colombo", {st_mode=S_IFREG|0644, st_size=357, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Chungking", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Chongqing", {st_mode=S_IFREG|0644, st_size=388, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Choibalsan", {st_mode=S_IFREG|0644, st_size=947, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Chita", {st_mode=S_IFREG|0644, st_size=1197, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Calcutta", {st_mode=S_IFREG|0644, st_size=267, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Brunei", {st_mode=S_IFREG|0644, st_size=201, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Bishkek", {st_mode=S_IFREG|0644, st_size=1001, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Beirut", {st_mode=S_IFREG|0644, st_size=2149, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Barnaul", {st_mode=S_IFREG|0644, st_size=1211, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Bangkok", {st_mode=S_IFREG|0644, st_size=180, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Baku", {st_mode=S_IFREG|0644, st_size=1241, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Bahrain", {st_mode=S_IFREG|0644, st_size=197, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Baghdad", {st_mode=S_IFREG|0644, st_size=964, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Atyrau", {st_mode=S_IFREG|0644, st_size=981, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ashkhabad", {st_mode=S_IFREG|0644, st_size=607, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Ashgabat", {st_mode=S_IFREG|0644, st_size=607, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Aqtobe", {st_mode=S_IFREG|0644, st_size=987, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Aqtau", {st_mode=S_IFREG|0644, st_size=973, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Anadyr", {st_mode=S_IFREG|0644, st_size=1178, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Amman", {st_mode=S_IFREG|0644, st_size=8620, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Almaty", {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+stat("/usr/share/zoneinfo/Asia/Aden", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+open("/usr/share/zoneinfo/Atlantic", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 14 entries */, 32768)    = 440
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Atlantic/Stanley", {st_mode=S_IFREG|0644, st_size=1195, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/St_Helena", {st_mode=S_IFREG|0644, st_size=156, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/South_Georgia", {st_mode=S_IFREG|0644, st_size=141, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Reykjavik", {st_mode=S_IFREG|0644, st_size=1174, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Madeira", {st_mode=S_IFREG|0644, st_size=3442, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Jan_Mayen", {st_mode=S_IFREG|0644, st_size=2225, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Faroe", {st_mode=S_IFREG|0644, st_size=1815, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Faeroe", {st_mode=S_IFREG|0644, st_size=1815, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Cape_Verde", {st_mode=S_IFREG|0644, st_size=240, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Canary", {st_mode=S_IFREG|0644, st_size=1897, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Bermuda", {st_mode=S_IFREG|0644, st_size=1990, ...}) = 0
+stat("/usr/share/zoneinfo/Atlantic/Azores", {st_mode=S_IFREG|0644, st_size=3437, ...}) = 0
+open("/usr/share/zoneinfo/Australia", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 25 entries */, 32768)    = 752
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Australia/Yancowinna", {st_mode=S_IFREG|0644, st_size=2252, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/West", {st_mode=S_IFREG|0644, st_size=453, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Victoria", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Tasmania", {st_mode=S_IFREG|0644, st_size=2309, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Sydney", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/South", {st_mode=S_IFREG|0644, st_size=2216, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Queensland", {st_mode=S_IFREG|0644, st_size=426, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Perth", {st_mode=S_IFREG|0644, st_size=453, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/North", {st_mode=S_IFREG|0644, st_size=301, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/NSW", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Melbourne", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Lord_Howe", {st_mode=S_IFREG|0644, st_size=1849, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Lindeman", {st_mode=S_IFREG|0644, st_size=496, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/LHI", {st_mode=S_IFREG|0644, st_size=1849, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Hobart", {st_mode=S_IFREG|0644, st_size=2309, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Eucla", {st_mode=S_IFREG|0644, st_size=463, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Darwin", {st_mode=S_IFREG|0644, st_size=301, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Currie", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Canberra", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Broken_Hill", {st_mode=S_IFREG|0644, st_size=2252, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Brisbane", {st_mode=S_IFREG|0644, st_size=426, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/Adelaide", {st_mode=S_IFREG|0644, st_size=2216, ...}) = 0
+stat("/usr/share/zoneinfo/Australia/ACT", {st_mode=S_IFREG|0644, st_size=2197, ...}) = 0
+open("/usr/share/zoneinfo/Brazil", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 6 entries */, 32768)     = 152
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Brazil/West", {st_mode=S_IFREG|0644, st_size=602, ...}) = 0
+stat("/usr/share/zoneinfo/Brazil/East", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+stat("/usr/share/zoneinfo/Brazil/DeNoronha", {st_mode=S_IFREG|0644, st_size=714, ...}) = 0
+stat("/usr/share/zoneinfo/Brazil/Acre", {st_mode=S_IFREG|0644, st_size=618, ...}) = 0
+open("/usr/share/zoneinfo/Canada", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 11 entries */, 32768)    = 344
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Canada/Yukon", {st_mode=S_IFREG|0644, st_size=2067, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Saskatchewan", {st_mode=S_IFREG|0644, st_size=980, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Pacific", {st_mode=S_IFREG|0644, st_size=2875, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Newfoundland", {st_mode=S_IFREG|0644, st_size=3622, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Mountain", {st_mode=S_IFREG|0644, st_size=2388, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Eastern", {st_mode=S_IFREG|0644, st_size=3477, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/East-Saskatchewan", {st_mode=S_IFREG|0644, st_size=980, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Central", {st_mode=S_IFREG|0644, st_size=2865, ...}) = 0
+stat("/usr/share/zoneinfo/Canada/Atlantic", {st_mode=S_IFREG|0644, st_size=3424, ...}) = 0
+open("/usr/share/zoneinfo/Chile", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 4 entries */, 32768)     = 112
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Chile/EasterIsland", {st_mode=S_IFREG|0644, st_size=8993, ...}) = 0
+stat("/usr/share/zoneinfo/Chile/Continental", {st_mode=S_IFREG|0644, st_size=9289, ...}) = 0
+open("/usr/share/zoneinfo/Etc", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 37 entries */, 32768)    = 1128
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Etc/Zulu", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/Universal", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/UTC", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/UCT", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/Greenwich", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT0", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-9", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-8", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-7", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-6", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-5", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-4", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-3", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-2", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-14", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-13", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-12", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-11", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-10", {st_mode=S_IFREG|0644, st_size=122, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-1", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT-0", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+9", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+8", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+7", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+6", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+5", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+4", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+3", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+2", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+12", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+11", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+10", {st_mode=S_IFREG|0644, st_size=121, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+1", {st_mode=S_IFREG|0644, st_size=120, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT+0", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+stat("/usr/share/zoneinfo/Etc/GMT", {st_mode=S_IFREG|0644, st_size=118, ...}) = 0
+open("/usr/share/zoneinfo/Europe", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 65 entries */, 32768)    = 2032
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Europe/Zurich", {st_mode=S_IFREG|0644, st_size=1892, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Zaporozhye", {st_mode=S_IFREG|0644, st_size=2089, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Zagreb", {st_mode=S_IFREG|0644, st_size=1931, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Warsaw", {st_mode=S_IFREG|0644, st_size=2679, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Volgograd", {st_mode=S_IFREG|0644, st_size=1139, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Vilnius", {st_mode=S_IFREG|0644, st_size=2173, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Vienna", {st_mode=S_IFREG|0644, st_size=2211, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Vatican", {st_mode=S_IFREG|0644, st_size=2666, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Vaduz", {st_mode=S_IFREG|0644, st_size=1892, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Uzhgorod", {st_mode=S_IFREG|0644, st_size=2077, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Ulyanovsk", {st_mode=S_IFREG|0644, st_size=1221, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Tiraspol", {st_mode=S_IFREG|0644, st_size=2387, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Tirane", {st_mode=S_IFREG|0644, st_size=2084, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Tallinn", {st_mode=S_IFREG|0644, st_size=2161, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Stockholm", {st_mode=S_IFREG|0644, st_size=1892, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Sofia", {st_mode=S_IFREG|0644, st_size=2104, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Skopje", {st_mode=S_IFREG|0644, st_size=1931, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Simferopol", {st_mode=S_IFREG|0644, st_size=1448, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Saratov", {st_mode=S_IFREG|0644, st_size=1153, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Sarajevo", {st_mode=S_IFREG|0644, st_size=1931, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/San_Marino", {st_mode=S_IFREG|0644, st_size=2666, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Samara", {st_mode=S_IFREG|0644, st_size=1193, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Rome", {st_mode=S_IFREG|0644, st_size=2666, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Riga", {st_mode=S_IFREG|0644, st_size=2209, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Prague", {st_mode=S_IFREG|0644, st_size=2246, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Podgorica", {st_mode=S_IFREG|0644, st_size=1931, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Paris", {st_mode=S_IFREG|0644, st_size=2945, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Oslo", {st_mode=S_IFREG|0644, st_size=2225, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Nicosia", {st_mode=S_IFREG|0644, st_size=2002, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Moscow", {st_mode=S_IFREG|0644, st_size=1486, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Monaco", {st_mode=S_IFREG|0644, st_size=2927, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Minsk", {st_mode=S_IFREG|0644, st_size=1330, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Mariehamn", {st_mode=S_IFREG|0644, st_size=1883, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Malta", {st_mode=S_IFREG|0644, st_size=2603, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Madrid", {st_mode=S_IFREG|0644, st_size=2611, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Luxembourg", {st_mode=S_IFREG|0644, st_size=2960, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/London", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Ljubljana", {st_mode=S_IFREG|0644, st_size=1931, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Lisbon", {st_mode=S_IFREG|0644, st_size=3439, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Kirov", {st_mode=S_IFREG|0644, st_size=1139, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Kiev", {st_mode=S_IFREG|0644, st_size=2071, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Kaliningrad", {st_mode=S_IFREG|0644, st_size=1476, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Jersey", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Istanbul", {st_mode=S_IFREG|0644, st_size=2110, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Isle_of_Man", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Helsinki", {st_mode=S_IFREG|0644, st_size=1883, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Guernsey", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Gibraltar", {st_mode=S_IFREG|0644, st_size=3035, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Dublin", {st_mode=S_IFREG|0644, st_size=3533, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Copenhagen", {st_mode=S_IFREG|0644, st_size=2134, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Chisinau", {st_mode=S_IFREG|0644, st_size=2387, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Busingen", {st_mode=S_IFREG|0644, st_size=1892, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Budapest", {st_mode=S_IFREG|0644, st_size=2379, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Bucharest", {st_mode=S_IFREG|0644, st_size=2195, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Brussels", {st_mode=S_IFREG|0644, st_size=2944, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Bratislava", {st_mode=S_IFREG|0644, st_size=2246, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Berlin", {st_mode=S_IFREG|0644, st_size=2309, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Belgrade", {st_mode=S_IFREG|0644, st_size=1931, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Belfast", {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Athens", {st_mode=S_IFREG|0644, st_size=2245, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Astrakhan", {st_mode=S_IFREG|0644, st_size=1153, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Andorra", {st_mode=S_IFREG|0644, st_size=1725, ...}) = 0
+stat("/usr/share/zoneinfo/Europe/Amsterdam", {st_mode=S_IFREG|0644, st_size=2923, ...}) = 0
+open("/usr/share/zoneinfo/Indian", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 13 entries */, 32768)    = 392
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Indian/Reunion", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Mayotte", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Mauritius", {st_mode=S_IFREG|0644, st_size=239, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Maldives", {st_mode=S_IFREG|0644, st_size=180, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Mahe", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Kerguelen", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Comoro", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Cocos", {st_mode=S_IFREG|0644, st_size=151, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Christmas", {st_mode=S_IFREG|0644, st_size=142, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Chagos", {st_mode=S_IFREG|0644, st_size=197, ...}) = 0
+stat("/usr/share/zoneinfo/Indian/Antananarivo", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+open("/usr/share/zoneinfo/Mexico", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 5 entries */, 32768)     = 144
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Mexico/General", {st_mode=S_IFREG|0644, st_size=1604, ...}) = 0
+stat("/usr/share/zoneinfo/Mexico/BajaSur", {st_mode=S_IFREG|0644, st_size=1534, ...}) = 0
+stat("/usr/share/zoneinfo/Mexico/BajaNorte", {st_mode=S_IFREG|0644, st_size=2342, ...}) = 0
+open("/usr/share/zoneinfo/Pacific", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 45 entries */, 32768)    = 1368
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/Pacific/Yap", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Wallis", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Wake", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Truk", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Tongatapu", {st_mode=S_IFREG|0644, st_size=949, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Tarawa", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Tahiti", {st_mode=S_IFREG|0644, st_size=159, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Samoa", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Saipan", {st_mode=S_IFREG|0644, st_size=199, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Rarotonga", {st_mode=S_IFREG|0644, st_size=562, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Port_Moresby", {st_mode=S_IFREG|0644, st_size=165, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Ponape", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Pohnpei", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Pitcairn", {st_mode=S_IFREG|0644, st_size=183, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Palau", {st_mode=S_IFREG|0644, st_size=142, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Pago_Pago", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Noumea", {st_mode=S_IFREG|0644, st_size=300, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Norfolk", {st_mode=S_IFREG|0644, st_size=283, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Niue", {st_mode=S_IFREG|0644, st_size=226, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Nauru", {st_mode=S_IFREG|0644, st_size=254, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Midway", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Marquesas", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Majuro", {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Kwajalein", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Kosrae", {st_mode=S_IFREG|0644, st_size=195, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Kiritimati", {st_mode=S_IFREG|0644, st_size=223, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Johnston", {st_mode=S_IFREG|0644, st_size=250, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Honolulu", {st_mode=S_IFREG|0644, st_size=250, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Guam", {st_mode=S_IFREG|0644, st_size=199, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Guadalcanal", {st_mode=S_IFREG|0644, st_size=160, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Gambier", {st_mode=S_IFREG|0644, st_size=158, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Galapagos", {st_mode=S_IFREG|0644, st_size=240, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Funafuti", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Fiji", {st_mode=S_IFREG|0644, st_size=1060, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Fakaofo", {st_mode=S_IFREG|0644, st_size=181, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Enderbury", {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Efate", {st_mode=S_IFREG|0644, st_size=464, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Easter", {st_mode=S_IFREG|0644, st_size=8993, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Chuuk", {st_mode=S_IFREG|0644, st_size=143, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Chatham", {st_mode=S_IFREG|0644, st_size=2047, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Bougainville", {st_mode=S_IFREG|0644, st_size=255, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Auckland", {st_mode=S_IFREG|0644, st_size=2434, ...}) = 0
+stat("/usr/share/zoneinfo/Pacific/Apia", {st_mode=S_IFREG|0644, st_size=1098, ...}) = 0
+open("/usr/share/zoneinfo/US", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 15 entries */, 32768)    = 472
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/zoneinfo/US/Samoa", {st_mode=S_IFREG|0644, st_size=174, ...}) = 0
+stat("/usr/share/zoneinfo/US/Pacific-New", {st_mode=S_IFREG|0644, st_size=2819, ...}) = 0
+stat("/usr/share/zoneinfo/US/Pacific", {st_mode=S_IFREG|0644, st_size=2819, ...}) = 0
+stat("/usr/share/zoneinfo/US/Mountain", {st_mode=S_IFREG|0644, st_size=2427, ...}) = 0
+stat("/usr/share/zoneinfo/US/Michigan", {st_mode=S_IFREG|0644, st_size=2202, ...}) = 0
+stat("/usr/share/zoneinfo/US/Indiana-Starke", {st_mode=S_IFREG|0644, st_size=2395, ...}) = 0
+stat("/usr/share/zoneinfo/US/Hawaii", {st_mode=S_IFREG|0644, st_size=250, ...}) = 0
+stat("/usr/share/zoneinfo/US/Eastern", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/usr/share/zoneinfo/US/East-Indiana", {st_mode=S_IFREG|0644, st_size=1649, ...}) = 0
+stat("/usr/share/zoneinfo/US/Central", {st_mode=S_IFREG|0644, st_size=3543, ...}) = 0
+stat("/usr/share/zoneinfo/US/Arizona", {st_mode=S_IFREG|0644, st_size=327, ...}) = 0
+stat("/usr/share/zoneinfo/US/Aleutian", {st_mode=S_IFREG|0644, st_size=2339, ...}) = 0
+stat("/usr/share/zoneinfo/US/Alaska", {st_mode=S_IFREG|0644, st_size=2354, ...}) = 0
+open("/usr/share/zoneinfo/zone.tab", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19153, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(3, "# tz zone descriptions (deprecat"..., 4096) = 4096
+read(3, "-2332-04637\tAmerica/Sao_Paulo\tBr"..., 4096) = 4096
+read(3, "A\t+0023+00927\tAfrica/Libreville\n"..., 4096) = 4096
+read(3, "a/Hermosillo\tMountain Standard T"..., 4096) = 4096
+read(3, "1039-06131\tAmerica/Port_of_Spain"..., 4096) = 2769
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+stat("/usr/share/zoneinfo/Europe/Moscow", {st_mode=S_IFREG|0644, st_size=1486, ...}) = 0
+open("/usr/share/zoneinfo/Europe/Moscow", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1486, ...}) = 0
+mmap(NULL, 1486, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d603000
+close(3)                                = 0
+munmap(0x7ff89d603000, 1486)            = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/cron.php", {st_mode=S_IFREG|0644, st_size=7050, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/cron.php", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=7050, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=7050, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=7050, ...}) = 0
+mmap(NULL, 7050, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff89d602000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89305b000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89301a000
+munmap(0x7ff89d602000, 7050)            = 0
+close(3)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/cron.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/cron.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/cron.php", 0666) = -1 ENOENT (No such file or directory)
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+fcntl(3, F_SETFL, O_RDONLY)             = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+open("/etc/resolv.conf", O_RDONLY)      = 4
+fstat(4, {st_mode=S_IFREG|0444, st_size=127, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(4, "nameserver 178.208.73.14\nnameser"..., 4096) = 127
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+uname({sys="Linux", node="s15.h.mchost.ru", ...}) = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = 0
+sendto(4, "\2\0\0\0\r\0\0\0\6\0\0\0hosts\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+poll([{fd=4, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=4, revents=POLLIN|POLLHUP}])
+recvmsg(4, {msg_name(0)=NULL, msg_iov(2)=[{"hosts\0", 6}, {"Z\5\177\0\0\0\0\0", 8}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {5}}, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 14
+mmap(NULL, 8324442, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff892829000
+close(5)                                = 0
+close(4)                                = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(3306), sin_addr=inet_addr("10.0.2.2")}, 16) = 0
+setsockopt(3, SOL_SOCKET, SO_RCVTIMEO, "\2003\341\1\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(3, SOL_SOCKET, SO_SNDTIMEO, "\2003\341\1\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(3, SOL_IP, IP_TOS, [8], 4)   = 0
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+read(3, "S\0\0\0\n5.6.32-78.0-log\0\266\23d\16g=;NVF:"..., 16384) = 87
+brk(0x2a6a000)                          = 0x2a6a000
+stat("/usr/share/mysql/charsets/Index.xml", {st_mode=S_IFREG|0644, st_size=18307, ...}) = 0
+open("/usr/share/mysql/charsets/Index.xml", O_RDONLY) = 4
+read(4, "<?xml version='1.0' encoding=\"ut"..., 18307) = 18307
+close(4)                                = 0
+write(3, "Q\0\0\1\215\242\2\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 85) = 85
+read(3, "\7\0\0\2\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\23\0\0\0\3SET NAMES 'cp1251'", 23) = 23
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\35\0\0\0\3TRUNCATE TABLE dle_login_lo"..., 33) = 33
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\31\0\0\0\3TRUNCATE TABLE dle_flood", 29) = 29
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\34\0\0\0\3TRUNCATE TABLE dle_mail_log", 32) = 32
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\34\0\0\0\3TRUNCATE TABLE dle_read_log", 32) = 32
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\34\0\0\0\3TRUNCATE TABLE dle_spam_log", 32) = 32
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "T\0\0\0\3DELETE FROM dle_banned WHER"..., 88) = 88
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+unlink("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banned.php") = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "G\0\0\0\3SELECT news_id, action FROM"..., 75) = 75
+read(3, "\1\0\0\1\2I\0\0\2\3def\ra96733_blanks\fdle_"..., 16384) = 175
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "7\0\0\0\3DELETE FROM dle_post_log WH"..., 59) = 59
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "K\0\0\0\3SELECT images  FROM dle_ima"..., 79) = 79
+read(3, "\1\0\0\1\1C\0\0\2\3def\ra96733_blanks\ndle_"..., 16384) = 94
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "C\0\0\0\3DELETE FROM dle_images wher"..., 71) = 71
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "O\0\0\0\3SELECT id, onserver FROM dl"..., 83) = 83
+read(3, "\1\0\0\1\0029\0\0\2\3def\ra96733_blanks\tdle_"..., 16384) = 157
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "B\0\0\0\3DELETE FROM dle_files WHERE"..., 70) = 70
+read(3, "\7\0\0\1\0\0\0\2\0\0\0", 16384) = 11
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 4 entries */, 32768)     = 192
+unlink("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/calendar_13037c292765c5f857e1c061f4174af8.tmp") = 0
+unlink("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/archives_766cc4dd4d5005652e8514e3513683f8.tmp") = 0
+getdents(4, /* 0 entries */, 32768)     = 0
+munmap(0x7ff89305b000, 266240)          = 0
+munmap(0x7ff89301a000, 266240)          = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/usergroup.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts", {st_mode=S_IFDIR|0755, st_size=69632, ...}) = 0
+lstat("/home/httpd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/usergroup.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "-\0\0\0\3SELECT * FROM dle_usergroup"..., 49) = 49
+read(3, "\1\0\0\1VC\0\0\2\3def\ra96733_blanks\16dle_"..., 16384) = 7240
+read(3, "\f?\0\6\0\0\0\2\1\0\0\0\0U\0\0R\3def\ra96733_bla"..., 16384) = 1837
+brk(0x2ac2000)                          = 0x2ac2000
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/usergroup.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/usergroup.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/usergroup.php", 0666) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/category.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/category.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "-\0\0\0\3SELECT * FROM dle_category "..., 49) = 49
+read(3, "\1\0\0\1\17?\0\0\2\3def\ra96733_blanks\fdle_"..., 16384) = 1211
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/category.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/category.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/category.php", 0666) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banned.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banned.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\31\0\0\0\3SELECT * FROM dle_banned", 29) = 29
+read(3, "\1\0\0\1\6;\0\0\2\3def\ra96733_blanks\ndle_"..., 16384) = 427
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banned.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banned.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banned.php", 0666) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/language/Russian/website.lng", {st_mode=S_IFREG|0644, st_size=40237, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/language/Russian", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/language", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/language/Russian/website.lng", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=40237, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=40237, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=40237, ...}) = 0
+mmap(NULL, 40237, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89d5fa000
+brk(0x2b12000)                          = 0x2b12000
+munmap(0x7ff89d5fa000, 40237)           = 0
+close(5)                                = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=99170352, ...}) = 0
+mmap(NULL, 99170352, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7ff88c995000
+close(5)                                = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=2512, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff89d603000
+read(5, "# Locale name alias data base.\n#"..., 4096) = 2512
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7ff89d603000, 4096)            = 0
+open("/usr/lib/locale/ru_RU.CP1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru_RU.cp1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru_RU/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru.CP1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru.cp1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru_SU.CP1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru_SU.cp1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru_SU/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru.CP1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru.cp1251/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/locale/ru/LC_IDENTIFICATION", O_RDONLY) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/templates.class.php", {st_mode=S_IFREG|0644, st_size=14528, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/templates.class.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=14528, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=14528, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=14528, ...}) = 0
+mmap(NULL, 14528, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89d600000
+munmap(0x7ff89d600000, 14528)           = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/sitelogin.php", {st_mode=S_IFREG|0644, st_size=8408, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/sitelogin.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=8408, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=8408, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=8408, ...}) = 0
+mmap(NULL, 8408, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89d601000
+munmap(0x7ff89d601000, 8408)            = 0
+close(5)                                = 0
+open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26060, ...}) = 0
+mmap(NULL, 26060, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89d5fd000
+close(5)                                = 0
+futex(0x7ff89a5b6828, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib64/gconv/KOI8-R.so", O_RDONLY) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\4\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=12952, ...}) = 0
+mmap(NULL, 2105376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7ff88c792000
+mprotect(0x7ff88c794000, 2093056, PROT_NONE) = 0
+mmap(0x7ff88c993000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1000) = 0x7ff88c993000
+close(5)                                = 0
+mprotect(0x7ff88c993000, 4096, PROT_READ) = 0
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/login.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/login.tpl", {st_mode=S_IFREG|0644, st_size=2041, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/login.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=2041, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=2041, ...}) = 0
+read(5, "[not-group=5]\r\n<ul class=\"reset "..., 8192) = 2041
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/calendar.php", {st_mode=S_IFREG|0644, st_size=10172, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/calendar.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=10172, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=10172, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=10172, ...}) = 0
+mmap(NULL, 10172, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89d5fa000
+munmap(0x7ff89d5fa000, 10172)           = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/calendar_13037c292765c5f857e1c061f4174af8.tmp", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/calendar_13037c292765c5f857e1c061f4174af8.tmp", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru_RU.KOI8-r/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru_RU.koi8r/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru_RU/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru.KOI8-r/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru.koi8r/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru/LC_MESSAGES/libc.mo", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=175862, ...}) = 0
+mmap(NULL, 175862, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7ff893071000
+close(5)                                = 0
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\253\0\0\0\3SELECT DISTINCT DAYOFMONTH("..., 175) = 175
+read(3, "\1\0\0\1\1\31\0\0\2\3def\0\0\0\3day\0\f?\0\2\0\0\0\3\0\200\0"..., 16384) = 52
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/calendar_13037c292765c5f857e1c061f4174af8.tmp", 0x7ffea74ba730) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/calendar_13037c292765c5f857e1c061f4174af8.tmp", O_WRONLY|O_CREAT, 0666) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+flock(5, LOCK_EX)                       = 0
+ftruncate(5, 0)                         = 0
+write(5, "<div id=\"calendar-layer\"><table "..., 1467) = 1467
+close(5)                                = 0
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/calendar_13037c292765c5f857e1c061f4174af8.tmp", 0666) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/archives_766cc4dd4d5005652e8514e3513683f8.tmp", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/archives_766cc4dd4d5005652e8514e3513683f8.tmp", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "\237\0\0\0\3SELECT DATE_FORMAT(date,'%b"..., 163) = 163
+read(3, "\1\0\0\1\2\34\0\0\2\3def\0\0\0\6m_date\0\f3\0%\0\0\0\375"..., 16384) = 174
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/archives_766cc4dd4d5005652e8514e3513683f8.tmp", 0x7ffea74ba730) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/archives_766cc4dd4d5005652e8514e3513683f8.tmp", O_WRONLY|O_CREAT, 0666) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+flock(5, LOCK_EX)                       = 0
+ftruncate(5, 0)                         = 0
+write(5, "<a class=\"archives\" href=\"http:/"..., 525) = 525
+close(5)                                = 0
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/archives_766cc4dd4d5005652e8514e3513683f8.tmp", 0666) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/topnews.php", {st_mode=S_IFREG|0644, st_size=10476, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/topnews.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=10476, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=10476, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=10476, ...}) = 0
+mmap(NULL, 10476, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306e000
+munmap(0x7ff89306e000, 10476)           = 0
+close(5)                                = 0
+brk(0x2b5a000)                          = 0x2b5a000
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/topnews.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/topnews.tpl", {st_mode=S_IFREG|0644, st_size=37, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/topnews.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=37, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=37, ...}) = 0
+read(5, "<li><a href=\"{link}\">{title}</a>"..., 8192) = 37
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "E\1\0\0\3SELECT p.id, p.date, p.shor"..., 329) = 329
+read(3, "\1\0\0\1\0070\0\0\2\3def\ra96733_blanks\1p\10dl"..., 16384) = 449
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/rssinform.php", {st_mode=S_IFREG|0644, st_size=6488, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/rssinform.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6488, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=6488, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=6488, ...}) = 0
+mmap(NULL, 6488, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306f000
+munmap(0x7ff89306f000, 6488)            = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/informers.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/informers.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, ",\0\0\0\3SELECT * FROM dle_rssinform"..., 48) = 48
+read(3, "\1\0\0\1\vA\0\0\2\3def\ra96733_blanks\rdle_"..., 16384) = 966
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/informers.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/informers.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/informers.php", 0666) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/informer_1_766cc4dd4d5005652e8514e3513683f8.tmp", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/informer_1_766cc4dd4d5005652e8514e3513683f8.tmp", O_RDONLY) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/rss.class.php", {st_mode=S_IFREG|0644, st_size=8437, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/classes/rss.class.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=8437, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=8437, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=8437, ...}) = 0
+mmap(NULL, 8437, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306e000
+munmap(0x7ff89306e000, 8437)            = 0
+close(5)                                = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 315126393}) = 0
+open("/etc/resolv.conf", O_RDONLY)      = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=127, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "nameserver 178.208.73.14\nnameser"..., 4096) = 127
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1688, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "#\n# /etc/nsswitch.conf\n#\n# An ex"..., 4096) = 1688
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+uname({sys="Linux", node="s15.h.mchost.ru", ...}) = 0
+open("/dev/urandom", O_RDONLY)          = 5
+fstat(5, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bc730) = -1 EINVAL (Invalid argument)
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "m\350g\351\352\334\253\347\265\4\347\2\252\334\207F.\2331\357\177\204Q\367\236R\364\242\235\2512\250"..., 4096) = 4096
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+brk(0x2b8c000)                          = 0x2b8c000
+clock_gettime(CLOCK_MONOTONIC, {10732502, 316202836}) = 0
+open("/etc/resolv.conf", O_RDONLY)      = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=127, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "nameserver 178.208.73.14\nnameser"..., 4096) = 127
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1688, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "#\n# /etc/nsswitch.conf\n#\n# An ex"..., 4096) = 1688
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+uname({sys="Linux", node="s15.h.mchost.ru", ...}) = 0
+open("/dev/urandom", O_RDONLY)          = 5
+fstat(5, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffea74bc5c0) = -1 EINVAL (Invalid argument)
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "\333\210\201m-0\347#r:\326\331\30z?\"\305%>\304~\177:\255\375H/\327\243Ra\254"..., 4096) = 4096
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317184686}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317270918}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317297688}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317326703}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317354595}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317443201}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317469771}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317496701}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317524234}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317553078}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317601839}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317633425}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317660877}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317687265}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317714669}) = 0
+open("/etc/hosts", O_RDONLY)            = 5
+fstat(5, {st_mode=S_IFREG|0444, st_size=188, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(5, "127.0.0.1   localhost localhost."..., 4096) = 188
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 317951658}) = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 5
+fcntl(5, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("178.208.73.14")}, 16) = 0
+sendto(5, "\366\335\1\0\0\1\0\0\0\0\0\0\3www\10mid-team\2ws\0\0\1\0"..., 33, MSG_NOSIGNAL, NULL, 0) = 33
+open("/etc/hosts", O_RDONLY)            = 6
+fstat(6, {st_mode=S_IFREG|0444, st_size=188, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff893070000
+read(6, "127.0.0.1   localhost localhost."..., 4096) = 188
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7ff893070000, 4096)            = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318391022}) = 0
+sendto(5, "\227`\1\0\0\1\0\0\0\0\0\0\3www\10mid-team\2ws\0\0\34\0"..., 33, MSG_NOSIGNAL, NULL, 0) = 33
+poll([{fd=5, events=POLLIN|POLLRDNORM}], 1, 0) = 1 ([{fd=5, revents=POLLIN|POLLRDNORM}])
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318485000}) = 0
+recvfrom(5, "\366\335\201\200\0\1\0\1\0\0\0\0\3www\10mid-team\2ws\0\0\1\0"..., 4097, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("178.208.73.14")}, [16]) = 49
+recvfrom(5, 0x7ffea74bb2d0, 4097, 0, 0x7ffea74bc2e0, 0x7ffea74bb2cc) = -1 EAGAIN (Resource temporarily unavailable)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318579018}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318606977}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318664478}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318691355}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318718980}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318746169}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318773797}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318801303}) = 0
+poll([{fd=5, events=POLLIN}], 1, 0)     = 1 ([{fd=5, revents=POLLIN}])
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318858571}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+poll([{fd=5, events=POLLIN|POLLRDNORM}], 1, 0) = 1 ([{fd=5, revents=POLLIN|POLLRDNORM}])
+clock_gettime(CLOCK_MONOTONIC, {10732502, 318974732}) = 0
+recvfrom(5, "\227`\201\200\0\1\0\0\0\1\0\0\3www\10mid-team\2ws\0\0\34\0"..., 4097, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("178.208.73.14")}, [16]) = 91
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319038710}) = 0
+sendto(5, "\204e\1\0\0\1\0\0\0\0\0\0\3www\10mid-team\2ws\1h\6m"..., 45, MSG_NOSIGNAL, NULL, 0) = 45
+recvfrom(5, 0x7ffea74bb4c0, 4097, 0, 0x7ffea74bc4d0, 0x7ffea74bb4bc) = -1 EAGAIN (Resource temporarily unavailable)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319125747}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319152940}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319180628}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319236557}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319263530}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319290555}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319317269}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319344405}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319370836}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319397220}) = 0
+poll([{fd=5, events=POLLIN}], 1, 1000)  = 1 ([{fd=5, revents=POLLIN}])
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319454139}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+poll([{fd=5, events=POLLIN|POLLRDNORM}], 1, 0) = 1 ([{fd=5, revents=POLLIN|POLLRDNORM}])
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319569622}) = 0
+recvfrom(5, "\204e\201\203\0\1\0\0\0\1\0\0\3www\10mid-team\2ws\1h\6m"..., 4097, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("178.208.73.14")}, [16]) = 95
+close(5)                                = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319661165}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319688494}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319716364}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319746922}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319773616}) = 0
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 5
+setsockopt(5, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+fcntl(5, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319914770}) = 0
+connect(5, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("194.28.133.74")}, 16) = -1 EINPROGRESS (Operation now in progress)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 319980536}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 320008390}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 320042333}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 320097772}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 320152992}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 320179279}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 320206371}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 199)  = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519500327}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519537780}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519629717}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519685833}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519743652}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519771254}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 519798939}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 1)    = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 520907905}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 520934537}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 521019472}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732502, 521080496}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 521136582}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 521164502}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732502, 521191593}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 1000) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522087215}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522122794}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522214396}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522271128}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522328403}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522355414}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732503, 522382954}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 1000) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523084550}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523113004}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523186061}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523231644}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523281098}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523302024}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732504, 523322691}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 1000) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524117584}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524155414}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524258652}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524325301}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524391284}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524421200}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 524451335}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 230)  = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732505, 754783663}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 754814039}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 754896061}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732505, 754948253}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 754999068}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 755026803}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 755052059}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 1)    = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756165411}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756189515}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756264742}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756313544}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756363937}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756387400}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732505, 756411124}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 1000) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757137797}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757166512}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757242128}) = 0
+poll([{fd=5, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757288284}) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757333158}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757353919}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732506, 757375133}) = 0
+poll([{fd=5, events=POLLOUT}], 1, 561)  = 0 (Timeout)
+clock_gettime(CLOCK_MONOTONIC, {10732507, 319027444}) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732507, 319056593}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+clock_gettime(CLOCK_MONOTONIC, {10732507, 319147264}) = 0
+close(5)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff89a259510}, NULL, 8) = 0
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/informer.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/informer.tpl", {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/informer.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+read(5, "<div class=\"informer\">\r\n\t<p>[lin"..., 8192) = 104
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/informer_1_766cc4dd4d5005652e8514e3513683f8.tmp", {st_mode=S_IFREG|0666, st_size=180, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/informer_1_766cc4dd4d5005652e8514e3513683f8.tmp", O_WRONLY|O_CREAT, 0666) = 5
+fstat(5, {st_mode=S_IFREG|0666, st_size=180, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+flock(5, LOCK_EX)                       = 0
+ftruncate(5, 0)                         = 0
+write(5, "<div class=\"informer\">\r\n\t<p><a h"..., 180) = 180
+close(5)                                = 0
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/informer_1_766cc4dd4d5005652e8514e3513683f8.tmp", 0666) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/engine.php", {st_mode=S_IFREG|0644, st_size=38045, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/engine.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=38045, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=38045, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=38045, ...}) = 0
+mmap(NULL, 38045, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff893067000
+munmap(0x7ff893067000, 38045)           = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/static.php", {st_mode=S_IFREG|0644, st_size=8879, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/static.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=8879, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=8879, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=8879, ...}) = 0
+mmap(NULL, 8879, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306e000
+munmap(0x7ff89306e000, 8879)            = 0
+close(5)                                = 0
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, ":\0\0\0\3SELECT * FROM dle_static WH"..., 62) = 62
+read(3, "\1\0\0\1\21;\0\0\2\3def\ra96733_blanks\ndle_"..., 16384) = 7240
+read(3, "\360\345\346\350\354\345.<br />\315\340\370\340 \352\356\354\357\340\355\350\377 \343\340\360\340\355"..., 16384) = 1809
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "3\0\0\0\3UPDATE dle_static SET views"..., 55) = 55
+read(3, "0\0\0\1\0\1\0\2\0\0\0(Rows matched: 1  Cha"..., 16384) = 52
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/static.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/static.tpl", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/static.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+read(5, "<h2 class=\"heading\"><span id=\"ne"..., 8192) = 172
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/banners.php", {st_mode=S_IFREG|0644, st_size=4203, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/banners.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=4203, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=4203, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=4203, ...}) = 0
+mmap(NULL, 4203, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306f000
+munmap(0x7ff89306f000, 4203)            = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banners.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banners.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "*\0\0\0\3SELECT * FROM dle_banners O"..., 46) = 46
+read(3, "\1\0\0\1\r=\0\0\2\3def\ra96733_blanks\vdle_"..., 16384) = 1222
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banners.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banners.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/banners.php", 0666) = -1 ENOENT (No such file or directory)
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/speedbar.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/speedbar.tpl", {st_mode=S_IFREG|0644, st_size=44, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/speedbar.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=44, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=44, ...}) = 0
+read(5, "<div class=\"speedbar lines\">{spe"..., 8192) = 44
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/vote.php", {st_mode=S_IFREG|0644, st_size=7032, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/vote.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=7032, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=7032, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=7032, ...}) = 0
+mmap(NULL, 7032, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306f000
+munmap(0x7ff89306f000, 7032)            = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/vote.php", 0x7ffea74ba6b0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba500) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/vote.php", O_RDONLY) = -1 ENOENT (No such file or directory)
+poll([{fd=3, events=POLLIN|POLLPRI}], 1, 0) = 0 (Timeout)
+write(3, "_\0\0\0\3SELECT id, title, category,"..., 99) = 99
+read(3, "\1\0\0\1\0107\0\0\2\3def\ra96733_blanks\10dle_"..., 16384) = 711
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/vote.php", 0x7ffea74ba6c0) = -1 ENOENT (No such file or directory)
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system", 0x7ffea74ba510) = -1 ENOENT (No such file or directory)
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/vote.php", O_RDWR|O_CREAT|O_TRUNC, 0666) = -1 ENOENT (No such file or directory)
+chmod("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/system/vote.php", 0666) = -1 ENOENT (No such file or directory)
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/vote.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/vote.tpl", {st_mode=S_IFREG|0644, st_size=1167, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/vote.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1167, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=1167, ...}) = 0
+read(5, "<!--<div id=\"bvote\" class=\"block"..., 8192) = 1167
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/tagscloud.php", {st_mode=S_IFREG|0644, st_size=5150, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/modules/tagscloud.php", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=5150, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=5150, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=5150, ...}) = 0
+mmap(NULL, 5150, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff89306f000
+munmap(0x7ff89306f000, 5150)            = 0
+close(5)                                = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/tagscloud_766cc4dd4d5005652e8514e3513683f8.tmp", {st_mode=S_IFREG|0666, st_size=0, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/engine/cache/tagscloud_766cc4dd4d5005652e8514e3513683f8.tmp", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0666, st_size=0, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0666, st_size=0, ...}) = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/main.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/main.tpl", {st_mode=S_IFREG|0644, st_size=9534, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/main.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=9534, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=9534, ...}) = 0
+read(5, "<!DOCTYPE html PUBLIC \"-//W3C//D"..., 8192) = 8192
+read(5, "              <ul class=\"reset\">"..., 8192) = 1342
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/slider.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/slider.tpl", {st_mode=S_IFREG|0644, st_size=1144, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/slider.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=1144, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=1144, ...}) = 0
+read(5, "<script type=\"text/javascript\" s"..., 8192) = 1144
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+access("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/sidebar.tpl", F_OK) = 0
+lstat("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/sidebar.tpl", {st_mode=S_IFREG|0644, st_size=4839, ...}) = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates/Gemini/sidebar.tpl", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=4839, ...}) = 0
+lseek(5, 0, SEEK_CUR)                   = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=4839, ...}) = 0
+read(5, "<script type=\"text/javascript\">/"..., 8192) = 4839
+read(5, "", 8192)                       = 0
+read(5, "", 8192)                       = 0
+close(5)                                = 0
+open("/home/httpd/vhosts/medblanks.ru/httpdocs/templates", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+close(4)                                = 0
+getdents(5, /* 12 entries */, 32768)    = 384
+stat("./templates/Pisces", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("./templates/banned.tpl", {st_mode=S_IFREG|0644, st_size=1397, ...}) = 0
+stat("./templates/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("./templates/smartphone", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("./templates/Default", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("./templates/Gemini.zip", {st_mode=S_IFREG|0644, st_size=1430242, ...}) = 0
+stat("./templates/opensearch.tpl", {st_mode=S_IFREG|0644, st_size=968, ...}) = 0
+stat("./templates/.htaccess", {st_mode=S_IFREG|0644, st_size=133, ...}) = 0
+stat("./templates/..", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0
+stat("./templates/Gemini", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("./templates/smartphone.zip", {st_mode=S_IFREG|0644, st_size=61729, ...}) = 0
+stat("./templates/archive.zip", {st_mode=S_IFREG|0644, st_size=1491949, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+write(3, "\1\0\0\0\1", 5)               = 5
+shutdown(3, SHUT_RDWR)                  = 0
+close(3)                                = 0
+write(1, "<!DOCTYPE html PUBLIC \"-//W3C//D"..., 30713) = 30713
+open("/var/lib/php/session/sess_embredj2rgi1fmlht4dqqmdr32", O_RDWR|O_CREAT|O_NOFOLLOW, 0600) = -1 ENOENT (No such file or directory)
+close(2)                                = 0
+close(1)                                = 0
+munmap(0x7ff89d41e000, 4096)            = 0
+close(0)                                = 0
+munmap(0x7ff89d41f000, 4096)            = 0
+munmap(0x7ff89309c000, 266240)          = 0
+munmap(0x7ff8930dd000, 266240)          = 0
+munmap(0x7ff89311e000, 2190464)         = 0
+munmap(0x7ff893335000, 2141968)         = 0
+munmap(0x7ff893540000, 2362984)         = 0
+munmap(0x7ff893a10000, 2121064)         = 0
+munmap(0x7ff893781000, 2679408)         = 0
+munmap(0x7ff893c16000, 2127984)         = 0
+munmap(0x7ff893e1e000, 2197776)         = 0
+munmap(0x7ff894037000, 2236128)         = 0
+munmap(0x7ff894668000, 2149160)         = 0
+munmap(0x7ff894259000, 4253416)         = 0
+munmap(0x7ff894cb1000, 2137432)         = 0
+munmap(0x7ff894a7e000, 2303840)         = 0
+munmap(0x7ff894875000, 2132136)         = 0
+munmap(0x7ff8951f8000, 2136776)         = 0
+munmap(0x7ff8966e9000, 2447520)         = 0
+munmap(0x7ff89648b000, 2480520)         = 0
+munmap(0x7ff895f3d000, 2165496)         = 0
+munmap(0x7ff89614e000, 3394968)         = 0
+munmap(0x7ff895d17000, 2250552)         = 0
+munmap(0x7ff895ac7000, 2423648)         = 0
+munmap(0x7ff89582a000, 2739312)         = 0
+munmap(0x7ff895605000, 2246440)         = 0
+munmap(0x7ff895402000, 2106112)         = 0
+munmap(0x7ff89693f000, 4804416)         = 0
+munmap(0x7ff898d56000, 2164560)         = 0
+munmap(0x7ff898adb000, 2600616)         = 0
+munmap(0x7ff8988ca000, 2166176)         = 0
+munmap(0x7ff8986aa000, 2226648)         = 0
+munmap(0x7ff89847e000, 2274400)         = 0
+munmap(0x7ff89822d000, 2426160)         = 0
+munmap(0x7ff89801e000, 2155816)         = 0
+munmap(0x7ff897e04000, 2201520)         = 0
+munmap(0x7ff897bb7000, 2410344)         = 0
+munmap(0x7ff89798b000, 2276480)         = 0
+munmap(0x7ff897648000, 3417832)         = 0
+munmap(0x7ff89741b000, 2280176)         = 0
+munmap(0x7ff897217000, 2109704)         = 0
+munmap(0x7ff897012000, 2113912)         = 0
+munmap(0x7ff896dd4000, 2350304)         = 0
+munmap(0x7ff894ebb000, 3395552)         = 0
+munmap(0x7ff89d4a5000, 1052672)         = 0
+munmap(0x7ff89d5a6000, 266240)          = 0
+munmap(0x7ff89d456000, 323584)          = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

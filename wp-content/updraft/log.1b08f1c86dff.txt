@@ -1,0 +1,132 @@
+0000.001 () Opened log file at time: Wed, 11 May 2022 02:51:22 +0000 on https://zdesspravka.ru
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.6 PHP: 7.4.7 (cgi-fcgi, Linux s15.h.mchost.ru 3.10.0-714.10.2.lve1.5.17.1.el6h.x86_64 #1 SMP Tue May 22 11:27:30 EDT 2018 x86_64) MySQL: 5.7.22-22-log WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 400M (used: 24.1M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 309176.7 MB
+0000.002 () Opened log file at time: Wed, 11 May 2022 02:51:24 +0000 on https://zdesspravka.ru
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.6 PHP: 7.4.7 (cgi-fcgi, Linux s15.h.mchost.ru 3.10.0-714.10.2.lve1.5.17.1.el6h.x86_64 #1 SMP Tue May 22 11:27:30 EDT 2018 x86_64) MySQL: 5.7.22-22-log WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 400M (used: 23M | 4M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 309176.7 MB
+0000.022 () Ensuring WP_Filesystem is setup for a restore
+0000.022 () WP_Filesystem is setup and ready for a restore
+0000.038 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_aioseo_notifications","wp_aioseo_posts","wp_smush_dir_images","wp_testimonial_slider","wp_testimonial_slider_meta","wp_testimonial_slider_postmeta","wp_wfblockediplog","wp_wfblocks7","wp_wfconfig","wp_wfcrawlers","wp_wffilechanges","wp_wffilemods","wp_wfhits","wp_wfhoover","wp_wfissues","wp_wfknownfilelist","wp_wflivetraffichuman","wp_wflocs","wp_wflogins","wp_wfls_2fa_secrets","wp_wfls_settings","wp_wfnotifications","wp_wfpendingissues","wp_wfreversecache","wp_wfsnipcache","wp_wfstatus","wp_wftrafficrates","wp_wpforms_tasks_meta","wp_xsg_sitemap_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.040 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.041 () Entity: db
+0000.041 () restore_backup(backup_file=backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-db.gz, type=db, info=a:0:{}, last_one=)
+0000.041 () Распаковка резервной копии (backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-db.gz, 5 Mb)
+0000.054 () Database successfully unpacked
+0000.054 () Восстановление базы данных (на больших сайтах это может занять много времени и привести к таймауту (если Ваш сервер сконфигурирован с ограничением ресурсов) - в этом случае придется воспользоватся альтернативным методом, например, прямым импортом файла резервной копии в phpMyAdmin)...
+0000.054 () Using direct MySQL access; value of use_mysqli is: 1
+0000.055 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.083 () Max packet size: 512 MB
+0000.083 () Entering maintenance mode
+0000.083 () Включение режима обслуживания&#8230;
+0000.089 () Backup of: https://zdesspravka.ru
+0000.089 () Content URL: https://zdesspravka.ru/wp-content
+0000.089 () Uploads URL: https://zdesspravka.ru/wp-content/uploads
+0000.089 () Old table prefix: wp_
+0000.089 () Site information: multisite=0
+0000.089 () Site information: sql_mode=
+0000.090 () New table prefix: wp_
+0000.094 () Processing table (MyISAM): wp_options
+0000.140 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.547 () Processing table (MyISAM): wp_users
+0000.557 () Processing table (MyISAM): wp_usermeta
+0000.566 () Processing table (MyISAM): wp_actionscheduler_actions
+0000.575 () Processing table (MyISAM): wp_actionscheduler_claims
+0000.579 () Processing table (MyISAM): wp_actionscheduler_groups
+0000.588 () Processing table (MyISAM): wp_actionscheduler_logs
+0001.104 () Database queries processed: 50 in 1.05 seconds
+0003.486 () Processing table (MyISAM): wp_commentmeta
+0003.495 () Processing table (MyISAM): wp_comments
+0003.499 () Processing table (MyISAM): wp_links
+0003.508 () Processing table (MyISAM): wp_postmeta
+0003.844 () Database queries processed: 100 in 3.79 seconds
+0003.897 () Processing table (MyISAM): wp_posts
+0004.400 () Processing table (MyISAM): wp_term_relationships
+0004.409 () Processing table (MyISAM): wp_term_taxonomy
+0004.414 () Processing table (MyISAM): wp_termmeta
+0004.418 () Processing table (MyISAM): wp_terms
+0004.423 () Processing table (MyISAM): wp_aioseo_notifications
+0004.430 () Processing table (MyISAM): wp_aioseo_posts
+0004.457 () Processing table (MyISAM): wp_smush_dir_images
+0004.464 () Processing table (MyISAM): wp_testimonial_slider
+0004.469 () Processing table (MyISAM): wp_testimonial_slider_meta
+0004.471 () Database queries processed: 150 in 4.41 seconds
+0004.473 () Processing table (MyISAM): wp_testimonial_slider_postmeta
+0004.477 () Processing table (MyISAM): wp_wfblockediplog
+0004.483 () Processing table (MyISAM): wp_wfblocks7
+0004.488 () Processing table (MyISAM): wp_wfconfig
+0004.522 () Processing table (MyISAM): wp_wfcrawlers
+0004.531 () Processing table (MyISAM): wp_wffilechanges
+0004.538 () Processing table (MyISAM): wp_wffilemods
+0004.701 () Database queries processed: 200 in 4.64 seconds
+0004.704 () Processing table (MyISAM): wp_wfhits
+0004.735 () Processing table (MyISAM): wp_wfhoover
+0004.742 () Processing table (MyISAM): wp_wfissues
+0004.751 () Processing table (MyISAM): wp_wfknownfilelist
+0004.807 () Processing table (MyISAM): wp_wflivetraffichuman
+0004.815 () Processing table (MyISAM): wp_wflocs
+0004.826 () Processing table (MyISAM): wp_wflogins
+0004.832 () Database queries processed: 250 in 4.78 seconds
+0004.861 () Processing table (InnoDB): wp_wfls_2fa_secrets
+0004.875 () Processing table (InnoDB): wp_wfls_settings
+0004.881 () Processing table (MyISAM): wp_wfnotifications
+0004.896 () Processing table (MyISAM): wp_wfpendingissues
+0004.905 () Processing table (MyISAM): wp_wfreversecache
+0004.912 () Processing table (MyISAM): wp_wfsnipcache
+0004.920 () Processing table (MyISAM): wp_wfstatus
+0004.950 () Processing table (MyISAM): wp_wftrafficrates
+0004.959 () Processing table (MyISAM): wp_wpforms_tasks_meta
+0004.976 () Processing table (InnoDB): wp_xsg_sitemap_meta
+0005.173 () Unlocking database and leaving maintenance mode
+0005.173 () Отключение режима обслуживания&#8230;
+0005.173 () Finished: lines processed: 281 in 5.12 seconds
+0005.177 () Очистка мусора...
+0005.184 () Entity: plugins
+0005.184 () restore_backup(backup_file=backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:61:"/home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/plugins";s:11:"description";s:20:"Дополнения";}, last_one=)
+0005.184 () Распаковка резервной копии (backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-plugins.zip, 38.1 MB)
+0005.186 () Unzipping backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-plugins.zip to /home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/upgrade/d4077746/ using UpdraftPlus_ZipArchive, starting index 0
+0005.414 () Unzip progress: 1217 out of 7314 files (45 B, plugins/all-in-one-seo-pack/dist/Lite/assets/css/search-appearance-partials-lite-CustomFields-vue.css)
+0005.595 () Unzip progress: 2218 out of 7314 files (12.4 MB, plugins/all-in-one-seo-pack/dist/Lite/assets/css/settings-AccessControl-vue.css)
+0005.784 () Unzip progress: 3219 out of 7314 files (28.7 MB, plugins/ml-slider/images/metaslider_logo.png)
+0006.012 () Unzip progress: 4220 out of 7314 files (50.3 MB, plugins/ocean-extra/includes/shortcodes/shortcodes.php)
+0006.229 () Unzip progress: 5221 out of 7314 files (64.6 MB, plugins/wordfence/crypto/vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge/P2.php)
+0006.497 () Unzip progress: 6222 out of 7314 files (88.1 MB, plugins/updraftplus/languages/updraftplus-es_MX.po)
+0006.677 () Unzip progress: 7223 out of 7314 files (99 MB, plugins/updraftplus/vendor/symfony/event-dispatcher/EventDispatcher.php)
+0006.691 () Unzip progress: 7314 out of 7314 files (99.6 MB, plugins/so-widgets-bundle/widgets/simple-masonry/simple-masonry.php)
+0006.694 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.694 () Moving old data: can potentially use wp_filesystem method / -old
+0006.694 () Удаление устаревших данных...
+0006.852 () Top-level entities being moved: cyr2lat, testimonial-slider, classic-editor, contact-form-7, all-in-one-seo-pack, ml-slider, ocean-extra, wp-smushit, easy-fancybox, siteorigin-panels, cyrlitera, wp-fastest-cache, wordfence, really-simple-ssl, index.php, www-xml-sitemap-generator-org, akismet, rss-for-yandex-turbo, updraftplus, so-widgets-bundle
+0006.855 () Перемещение распакованной резервной копии на место...
+0007.012 () Top-level entities being moved: cyr2lat, testimonial-slider, classic-editor, contact-form-7, all-in-one-seo-pack, ml-slider, ocean-extra, wp-smushit, easy-fancybox, siteorigin-panels, cyrlitera, wp-fastest-cache, wordfence, really-simple-ssl, index.php, www-xml-sitemap-generator-org, akismet, rss-for-yandex-turbo, updraftplus, so-widgets-bundle
+0007.014 () Очистка мусора...
+0007.018 () Entity: themes
+0007.018 () restore_backup(backup_file=backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-themes.zip, type=themes, info=a:2:{s:4:"path";s:60:"/home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/themes";s:11:"description";s:8:"Темы";}, last_one=)
+0007.018 () Распаковка резервной копии (backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-themes.zip, 6.3 MB)
+0007.018 () Unzipping backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-themes.zip to /home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/upgrade/a24902d8/ using UpdraftPlus_ZipArchive, starting index 0
+0007.261 () Unzip progress: 1002 out of 1037 files (17.8 MB, themes/oceanwp/sass/components/header/_header-custom.scss)
+0007.267 () Unzip progress: 1037 out of 1037 files (18 MB, themes/oceanwp/comments.php)
+0007.268 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.268 () Moving old data: can potentially use wp_filesystem method / -old
+0007.268 () Удаление устаревших данных...
+0007.292 () Top-level entities being moved: oceanwp, index.php, colormag
+0007.292 () Перемещение распакованной резервной копии на место...
+0007.316 () Top-level entities being moved: oceanwp, index.php, colormag
+0007.316 () Очистка мусора...
+0007.319 () Entity: uploads
+0007.319 () restore_backup(backup_file=backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:61:"/home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/uploads";s:11:"description";s:16:"Загрузки";}, last_one=)
+0007.319 () Распаковка резервной копии (backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-uploads.zip, 14.5 MB)
+0007.319 () Unzipping backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-uploads.zip to /home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/upgrade/43ed436a/ using UpdraftPlus_ZipArchive, starting index 0
+0007.406 () Unzip progress: 276 out of 276 files (14.4 MB, uploads/2021/04/spravkagai3-300x200.jpeg)
+0007.407 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.407 () Moving old data: can potentially use wp_filesystem method / -old
+0007.407 () Удаление устаревших данных...
+0007.413 () Перемещение распакованной резервной копии на место...
+0007.419 () Очистка мусора...
+0007.421 () Entity: others
+0007.421 () restore_backup(backup_file=backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-others.zip, type=others, info=a:2:{s:4:"path";s:53:"/home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content";s:11:"description";s:12:"Другое";}, last_one=1)
+0007.421 () Распаковка резервной копии (backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-others.zip, 3.8 MB)
+0007.421 () Unzipping backup_2022-05-11-0421_zdesspravkaru_9b7e8ebdedb9-others.zip to /home/httpd/vhosts/zdesspravka.ru/httpdocs/wp-content/upgrade/ee543669/ using UpdraftPlus_ZipArchive, starting index 0
+0007.542 () Unzip progress: 213 out of 213 files (10.3 MB, languages/ru_RU-50278328b502f4eb3f2b8b7ab49324a1.json)
+0007.543 () Очистка мусора...
+0007.565 () Restore successful!
+0007.565 () Restore successful

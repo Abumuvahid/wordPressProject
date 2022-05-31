@@ -1,0 +1,417 @@
+0000.000 (0) Opened log file at time: Sun, 29 May 2022 11:14:48 +0000 on http://rielt495.ru
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.6 PHP: 7.4.25 (apache2handler, Linux flash.beget.ru 5.10.109-1-beget-acl #1 SMP Tue Apr 5 17:05:01 UTC 2022 x86_64) MySQL: 5.7.21-20-beget-5.7.21-20-1-log WPLANG: ru_RU Server: Apache/2.4.51 (Unix) safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 22.4M | 24M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 5500462.5 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.004 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.005 (0) Set semaphore last lock (fd) time to 2022-05-29 11:14:48
+0000.005 (0) Semaphore lock (fd) complete
+0000.006 (0) Backup run: resumption=0, nonce=8051ad074397, file_nonce=8051ad074397 begun at=1653822888 (0s ago), job type=backup
+0000.007 (0) Scheduling a resumption (1) after 300 seconds (1653823188) in case this run gets aborted
+0000.031 (0) Checking if we have a zip executable available
+0000.032 (0) Testing: /usr/bin/zip
+0000.064 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.065 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.065 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.066 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.099 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.100 (0) Working binary zip found: /usr/bin/zip
+0000.101 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.101 (0) Creation of backups of directories: beginning
+0000.103 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.254 (0) Total entities for the zip file: 1216 directories, 6098 files (0 skipped as non-modified), 99.6 MB
+0000.259 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.264 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.268 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.272 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.276 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.277 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 6098 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.722 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: size is now: 2.60 MB
+0000.731 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 600 files added (on-disk size: 2640.1 KB)
+0000.736 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 700 files added (on-disk size: 2640.1 KB)
+0000.741 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 800 files added (on-disk size: 2640.1 KB)
+0000.746 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 900 files added (on-disk size: 2640.1 KB)
+0000.752 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1000 files added (on-disk size: 2640.1 KB)
+0000.752 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.2 MB, 6098 files batched, 501 (1002) added so far); re-opening (prior size: 2640.1 KB)
+0001.102 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: size is now: 8.00 MB
+0001.109 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1100 files added (on-disk size: 8210.1 KB)
+0001.114 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1200 files added (on-disk size: 8210.1 KB)
+0001.118 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1300 files added (on-disk size: 8210.1 KB)
+0001.123 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1400 files added (on-disk size: 8210.1 KB)
+0001.127 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1500 files added (on-disk size: 8210.1 KB)
+0001.127 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 6098 files batched, 501 (1503) added so far); re-opening (prior size: 8210.1 KB)
+0001.308 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: size is now: 11.40 MB
+0001.316 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1600 files added (on-disk size: 11689.7 KB)
+0001.321 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1700 files added (on-disk size: 11689.7 KB)
+0001.325 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1800 files added (on-disk size: 11689.7 KB)
+0001.330 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 1900 files added (on-disk size: 11689.7 KB)
+0001.335 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2000 files added (on-disk size: 11689.7 KB)
+0001.335 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 6098 files batched, 501 (2004) added so far); re-opening (prior size: 11689.7 KB)
+0001.729 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: size is now: 14.60 MB
+0001.735 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2100 files added (on-disk size: 14923.5 KB)
+0001.740 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2200 files added (on-disk size: 14923.5 KB)
+0001.744 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2300 files added (on-disk size: 14923.5 KB)
+0001.749 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2400 files added (on-disk size: 14923.5 KB)
+0001.753 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2500 files added (on-disk size: 14923.5 KB)
+0001.754 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.4 MB, 6098 files batched, 501 (2505) added so far); re-opening (prior size: 14923.5 KB)
+0002.728 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: size is now: 20.20 MB
+0002.734 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2600 files added (on-disk size: 20664.4 KB)
+0002.738 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2700 files added (on-disk size: 20664.4 KB)
+0002.743 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2800 files added (on-disk size: 20664.4 KB)
+0002.747 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 2900 files added (on-disk size: 20664.4 KB)
+0002.752 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3000 files added (on-disk size: 20664.4 KB)
+0002.752 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 6098 files batched, 501 (3006) added so far); re-opening (prior size: 20664.4 KB)
+0002.936 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3100 files added (on-disk size: 21396.8 KB)
+0002.941 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3200 files added (on-disk size: 21396.8 KB)
+0002.946 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3300 files added (on-disk size: 21396.8 KB)
+0002.950 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3400 files added (on-disk size: 21396.8 KB)
+0002.954 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3500 files added (on-disk size: 21396.8 KB)
+0002.955 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 6098 files batched, 501 (3507) added so far); re-opening (prior size: 21396.8 KB)
+0003.177 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3600 files added (on-disk size: 22373.2 KB)
+0003.182 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3700 files added (on-disk size: 22373.2 KB)
+0003.186 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3800 files added (on-disk size: 22373.2 KB)
+0003.191 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 3900 files added (on-disk size: 22373.2 KB)
+0003.197 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4000 files added (on-disk size: 22373.2 KB)
+0003.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 6098 files batched, 501 (4008) added so far); re-opening (prior size: 22373.2 KB)
+0003.674 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4100 files added (on-disk size: 25939.4 KB)
+0003.679 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4200 files added (on-disk size: 25939.4 KB)
+0003.684 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4300 files added (on-disk size: 25939.4 KB)
+0003.689 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4400 files added (on-disk size: 25939.4 KB)
+0003.694 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4500 files added (on-disk size: 25939.4 KB)
+0003.695 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 6098 files batched, 501 (4509) added so far); re-opening (prior size: 25939.4 KB)
+0003.984 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4600 files added (on-disk size: 28184.5 KB)
+0003.989 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4700 files added (on-disk size: 28184.5 KB)
+0003.993 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4800 files added (on-disk size: 28184.5 KB)
+0003.997 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 4900 files added (on-disk size: 28184.5 KB)
+0004.001 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5000 files added (on-disk size: 28184.5 KB)
+0004.002 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 6098 files batched, 501 (5010) added so far); re-opening (prior size: 28184.5 KB)
+0004.882 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5100 files added (on-disk size: 32185.2 KB)
+0004.886 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5200 files added (on-disk size: 32185.2 KB)
+0004.891 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5300 files added (on-disk size: 32185.2 KB)
+0004.895 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5400 files added (on-disk size: 32185.2 KB)
+0004.899 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5500 files added (on-disk size: 32185.2 KB)
+0004.900 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 6098 files batched, 501 (5511) added so far); re-opening (prior size: 32185.2 KB)
+0005.266 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5600 files added (on-disk size: 33367.1 KB)
+0005.272 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5700 files added (on-disk size: 33367.1 KB)
+0005.276 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5800 files added (on-disk size: 33367.1 KB)
+0005.280 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 5900 files added (on-disk size: 33367.1 KB)
+0005.284 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip.tmp: 6000 files added (on-disk size: 33367.1 KB)
+0005.285 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 6098 files batched, 501 (6012) added so far); re-opening (prior size: 33367.1 KB)
+0006.697 (0) Created plugins zip (0) - 38979.4 KB in 6.6 s (5911.9 KB/s) (sha1: 304bd3aa6bed4c5168633318e0f9e794610885b2, sha256: eccd0fa686bb568d60404c005c3418451044537ad3ae313978f0b1897a348c28)
+0006.699 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.722 (0) Total entities for the zip file: 177 directories, 860 files (0 skipped as non-modified), 18 MB
+0006.726 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.731 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.735 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.741 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0006.745 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0006.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 860 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0007.060 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: size is now: 2.70 MB
+0007.071 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 600 files added (on-disk size: 2814.7 KB)
+0007.076 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 700 files added (on-disk size: 2814.7 KB)
+0007.080 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: 800 files added (on-disk size: 2814.7 KB)
+0007.731 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip.tmp: size is now: 6.30 MB
+0007.816 (0) Created themes zip (0) - 6439.1 KB in 1.1 s (5764.7 KB/s) (sha1: 919e5b88b50a3600c1d3d6fee942afcfb537e643, sha256: 625c48d51f87b2b10f5adaf3be8ca5e20f01a2d32b475b8dc4ff40601d00e4d6)
+0007.818 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.819 (0) Looking for candidates to backup in: /home/m/muvahike/rielt495.ru/public_html/wp-content/uploads
+0007.819 (0) finding files: siteorigin-widgets: adding to list (1)
+0007.819 (0) finding files: 2020: adding to list (2)
+0007.820 (0) finding files: elementor: adding to list (3)
+0007.820 (0) finding files: 2021: adding to list (4)
+0007.820 (0) finding files: aioseo-logs: adding to list (5)
+0007.820 (0) finding files: 2022: adding to list (6)
+0007.820 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.824 (0) Total entities for the zip file: 27 directories, 67 files (0 skipped as non-modified), 7.9 MB
+0007.912 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-uploads.zip.tmp: size is now: 7.90 MB
+0008.014 (0) Created uploads zip (0) - 8071.9 KB in 0.2 s (41865.7 KB/s) (sha1: ff960b1f855f60ebd46f10b99c236722ba28e5a4, sha256: d45873ac1f083b71aa5b790921564fa68edfddfbea8ab9eb2ad3f452b8cb6099)
+0008.016 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.016 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.017 (0) Looking for candidates to backup in: /home/m/muvahike/rielt495.ru/public_html/wp-content
+0008.017 (0) finding files: plugins: skipping: this is the plugins directory
+0008.017 (0) finding files: index.php: adding to list (1)
+0008.018 (0) finding files: languages-old: adding to list (2)
+0008.018 (0) finding files: wflogs-old: adding to list (3)
+0008.018 (0) finding files: wflogs: adding to list (4)
+0008.019 (0) finding files: uploads: skipping: this is the uploads directory
+0008.019 (0) finding files: index.php-old: adding to list (5)
+0008.019 (0) finding files: plugins-old: adding to list (6)
+0008.019 (0) finding files: upgrade: skipping: excluded by options
+0008.020 (0) finding files: themes-old: adding to list (7)
+0008.020 (0) finding files: languages: adding to list (8)
+0008.020 (0) finding files: cache: skipping: excluded by options
+0008.021 (0) finding files: uploads-old: adding to list (9)
+0008.021 (0) finding files: updraft: skipping: this is the updraft directory
+0008.022 (0) finding files: themes: skipping: this is the themes directory
+0008.031 (0) Total entities for the zip file: 11 directories, 418 files (0 skipped as non-modified), 20.6 MB
+0008.035 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.039 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.044 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.048 (0) Zip: backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0009.469 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip.tmp: size is now: 7.60 MB
+0009.568 (0) Created others zip (0) - 7829.5 KB in 1.5 s (5065.1 KB/s) (sha1: 0a3e996d32c694ea92ab9f04c688b4da20456122, sha256: d3d6fa0ef622e47451fa9926d5568033d23fa5fe7fb0f628d442fad231bdd9a8)
+0009.571 (0) Saving backup status to database (elements: 8)
+0009.572 (0) Beginning creation of database dump (WordPress DB)
+0009.573 (0) Couldn't get the sql_mode value (N;)
+0009.573 (0) SQL compatibility mode successfully changed to 
+0009.574 (0) Testing potential mysqldump binary: /usr/local/bin/mysqldump
+0009.621 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1237 bytes total)
+0009.622 (0) Working binary mysqldump found: /usr/local/bin/mysqldump
+0009.633 (0) Table wp_options: Total expected rows (approximate): 401
+0009.661 (0) Table wp_options: Rows added in this batch (next record: 174010): 396 in 0.03 seconds
+0009.663 (0) Table wp_options: finishing file(s) (2, 94 KB)
+0009.664 (0) Table wp_users: Total expected rows (approximate): 1
+0009.665 (0) Table wp_users: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0009.667 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0009.668 (0) Table wp_usermeta: Total expected rows (approximate): 37
+0009.669 (0) Table wp_usermeta: Rows added in this batch (next record: 73): 37 in 0.00 seconds
+0009.671 (0) Table wp_usermeta: finishing file(s) (2, 2.5 KB)
+0009.672 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 55
+0009.674 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 91044): 55 in 0.00 seconds
+0009.675 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.5 KB)
+0009.677 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0009.677 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0009.680 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0009.681 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 3
+0009.682 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0009.683 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0009.684 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 270307
+0009.685 (0) [Warning] В таблице wp_actionscheduler_logs очень большое количество строк (270307) - надеемся что ваш хостинг провайдер выделяет для вас достаточно ресурсов для того чтобы сохранить её дамп в резервной копии If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0010.962 (0) Table wp_actionscheduler_logs: binary mysqldump finished (writes: 54) in 1.28 seconds
+0010.965 (0) Table wp_actionscheduler_logs: finishing file(s) (1, 2573.9 KB)
+0010.967 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.968 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0010.970 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.971 (0) Table wp_comments: Total expected rows (approximate): 0
+0010.972 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0010.974 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0010.975 (0) Table wp_links: Total expected rows (approximate): 0
+0010.976 (0) Table wp_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0010.978 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0010.979 (0) Table wp_postmeta: Total expected rows (approximate): 856
+0011.157 (0) Table wp_postmeta: Rows added in this batch (next record: 5500): 856 in 0.18 seconds
+0011.160 (0) Table wp_postmeta: finishing file(s) (2, 518.4 KB)
+0011.161 (0) Table wp_posts: Total expected rows (approximate): 817
+0011.353 (0) Table wp_posts: Rows added in this batch (next record: 1791): 817 in 0.19 seconds
+0011.355 (0) Table wp_posts: finishing file(s) (2, 690.6 KB)
+0011.356 (0) Table wp_term_relationships: Total expected rows (approximate): 3
+0011.358 (0) Table wp_term_relationships: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0011.360 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0011.361 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0011.363 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 in 0.00 seconds
+0011.365 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0011.366 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0011.367 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.368 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0011.369 (0) Table wp_terms: Total expected rows (approximate): 5
+0011.370 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 in 0.00 seconds
+0011.372 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0011.373 (0) Table wp_aioseo_notifications: Total expected rows (approximate): 2
+0011.374 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0011.377 (0) Table wp_aioseo_notifications: finishing file(s) (2, 1.1 KB)
+0011.379 (0) Table wp_aioseo_posts: Total expected rows (approximate): 170
+0011.391 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 490): 170 in 0.01 seconds
+0011.392 (0) Table wp_aioseo_posts: finishing file(s) (2, 10.5 KB)
+0011.393 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0011.394 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.396 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0011.397 (0) Table wp_testimonial_slider: Total expected rows (approximate): 3
+0011.398 (0) Table wp_testimonial_slider: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0011.400 (0) Table wp_testimonial_slider: finishing file(s) (2, 0.4 KB)
+0011.401 (0) Table wp_testimonial_slider_meta: Total expected rows (approximate): 1
+0011.402 (0) Table wp_testimonial_slider_meta: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0011.404 (0) Table wp_testimonial_slider_meta: finishing file(s) (2, 0.3 KB)
+0011.405 (0) Table wp_testimonial_slider_postmeta: Total expected rows (approximate): 0
+0011.406 (0) Table wp_testimonial_slider_postmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.408 (0) Table wp_testimonial_slider_postmeta: finishing file(s) (2, 0.3 KB)
+0011.409 (0) Table wp_wfblockediplog: Total expected rows (approximate): 20
+0011.410 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 20 in 0.00 seconds
+0011.411 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.6 KB)
+0011.412 (0) Table wp_wfblocks7: Total expected rows (approximate): 1
+0011.413 (0) Table wp_wfblocks7: Rows added in this batch (next record: 1641): 1 in 0.00 seconds
+0011.415 (0) Table wp_wfblocks7: finishing file(s) (2, 0.5 KB)
+0011.416 (0) Table wp_wfconfig: Total expected rows (approximate): 260
+0011.470 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 260 in 0.05 seconds
+0011.472 (0) Table wp_wfconfig: finishing file(s) (2, 438.9 KB)
+0011.474 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0011.475 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0011.478 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0011.480 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0011.481 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0011.484 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0011.485 (0) Table wp_wffilemods: Total expected rows (approximate): 13211
+0011.667 (0) Table wp_wffilemods: binary mysqldump finished (writes: 37) in 0.18 seconds
+0011.670 (0) Table wp_wffilemods: finishing file(s) (1, 1035.6 KB)
+0011.672 (0) Table wp_wfhits: Total expected rows (approximate): 299
+0011.685 (0) Table wp_wfhits: Rows added in this batch (next record: 5682): 299 in 0.01 seconds
+0011.687 (0) Table wp_wfhits: finishing file(s) (2, 10.5 KB)
+0011.688 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0011.689 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.691 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0011.692 (0) Table wp_wfissues: Total expected rows (approximate): 20
+0011.694 (0) Table wp_wfissues: Rows added in this batch (next record: 12182): 20 in 0.00 seconds
+0011.695 (0) Table wp_wfissues: finishing file(s) (2, 6.3 KB)
+0011.696 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 13211
+0011.780 (0) Table wp_wfknownfilelist: binary mysqldump finished (writes: 29) in 0.08 seconds
+0011.782 (0) Table wp_wfknownfilelist: finishing file(s) (1, 133.4 KB)
+0011.784 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0011.785 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0011.787 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0011.789 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0011.790 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 in 0.00 seconds
+0011.791 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0011.792 (0) Table wp_wflogins: Total expected rows (approximate): 739
+0011.803 (0) Table wp_wflogins: Rows added in this batch (next record: 739): 739 in 0.01 seconds
+0011.805 (0) Table wp_wflogins: finishing file(s) (2, 13.2 KB)
+0011.807 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0011.809 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.811 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0011.812 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0011.813 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 19 in 0.00 seconds
+0011.814 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0011.815 (0) Table wp_wfnotifications: Total expected rows (approximate): 5
+0011.816 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 5 in 0.00 seconds
+0011.818 (0) Table wp_wfnotifications: finishing file(s) (2, 1 KB)
+0011.819 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0011.820 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.821 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0011.822 (0) Table wp_wfreversecache: Total expected rows (approximate): 1
+0011.823 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 in 0.00 seconds
+0011.824 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0011.825 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0011.826 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0011.828 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0011.829 (0) Table wp_wfstatus: Total expected rows (approximate): 1451
+0011.842 (0) Table wp_wfstatus: Rows added in this batch (next record: 45715): 1451 in 0.01 seconds
+0011.844 (0) Table wp_wfstatus: finishing file(s) (2, 25.3 KB)
+0011.845 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0011.846 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0011.848 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0011.849 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 2
+0011.850 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0011.852 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0011.853 (0) Table wp_xsg_sitemap_meta: Total expected rows (approximate): 32
+0011.855 (0) Table wp_xsg_sitemap_meta: Rows added in this batch (next record: 1000): 32 in 0.00 seconds
+0011.857 (0) Table wp_xsg_sitemap_meta: finishing file(s) (2, 0.5 KB)
+0011.857 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_options.table.tmpr174011.gz (1/45): adding to final database dump
+0011.877 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_options.table.gz (2/45): adding to final database dump
+0011.877 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_users.table.tmpr2.gz (3/45): adding to final database dump
+0011.878 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_users.table.gz (4/45): adding to final database dump
+0011.878 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_usermeta.table.tmpr74.gz (5/45): adding to final database dump
+0011.879 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_usermeta.table.gz (6/45): adding to final database dump
+0011.879 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_actions.table.tmpr91045.gz (7/45): adding to final database dump
+0011.880 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_actions.table.gz (8/45): adding to final database dump
+0011.880 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/45): adding to final database dump
+0011.880 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_claims.table.gz (10/45): adding to final database dump
+0011.881 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/45): adding to final database dump
+0011.881 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_groups.table.gz (12/45): adding to final database dump
+0011.881 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_actionscheduler_logs.table.gz (13/45): adding to final database dump
+0012.579 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_commentmeta.table.tmpr0.gz (14/45): adding to final database dump
+0012.580 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_commentmeta.table.gz (15/45): adding to final database dump
+0012.580 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_comments.table.tmpr0.gz (16/45): adding to final database dump
+0012.581 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_comments.table.gz (17/45): adding to final database dump
+0012.581 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_links.table.tmpr0.gz (18/45): adding to final database dump
+0012.581 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_links.table.gz (19/45): adding to final database dump
+0012.582 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_postmeta.table.tmpr5501.gz (20/45): adding to final database dump
+0012.710 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_postmeta.table.gz (21/45): adding to final database dump
+0012.711 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_posts.table.tmpr1792.gz (22/45): adding to final database dump
+0012.881 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_posts.table.gz (23/45): adding to final database dump
+0012.882 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_term_relationships.table.tmpr4.gz (24/45): adding to final database dump
+0012.882 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_term_relationships.table.gz (25/45): adding to final database dump
+0012.883 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_term_taxonomy.table.tmpr6.gz (26/45): adding to final database dump
+0012.883 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_term_taxonomy.table.gz (27/45): adding to final database dump
+0012.884 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_termmeta.table.tmpr0.gz (28/45): adding to final database dump
+0012.884 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_termmeta.table.gz (29/45): adding to final database dump
+0012.884 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_terms.table.tmpr6.gz (30/45): adding to final database dump
+0012.885 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_terms.table.gz (31/45): adding to final database dump
+0012.885 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_aioseo_notifications.table.tmpr3.gz (32/45): adding to final database dump
+0012.890 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_aioseo_notifications.table.gz (33/45): adding to final database dump
+0012.895 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_aioseo_posts.table.tmpr491.gz (34/45): adding to final database dump
+0012.902 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_aioseo_posts.table.gz (35/45): adding to final database dump
+0012.903 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_smush_dir_images.table.tmpr0.gz (36/45): adding to final database dump
+0012.904 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_smush_dir_images.table.gz (37/45): adding to final database dump
+0012.905 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_testimonial_slider.table.tmpr4.gz (38/45): adding to final database dump
+0012.906 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_testimonial_slider.table.gz (39/45): adding to final database dump
+0012.906 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_testimonial_slider_meta.table.tmpr2.gz (40/45): adding to final database dump
+0012.906 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_testimonial_slider_meta.table.gz (41/45): adding to final database dump
+0012.907 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_testimonial_slider_postmeta.table.tmpr0.gz (42/45): adding to final database dump
+0012.907 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_testimonial_slider_postmeta.table.gz (43/45): adding to final database dump
+0012.908 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfblockediplog.table.tmpr1001.gz (44/45): adding to final database dump
+0012.908 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfblockediplog.table.gz (45/45): adding to final database dump
+0012.909 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfblocks7.table.tmpr1642.gz (46/45): adding to final database dump
+0012.909 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfblocks7.table.gz (47/45): adding to final database dump
+0012.909 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfconfig.table.tmpr1001.gz (48/45): adding to final database dump
+0013.056 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfconfig.table.gz (49/45): adding to final database dump
+0013.056 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfcrawlers.table.tmpr1.gz (50/45): adding to final database dump
+0013.057 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfcrawlers.table.gz (51/45): adding to final database dump
+0013.057 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wffilechanges.table.tmpr1.gz (52/45): adding to final database dump
+0013.058 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wffilechanges.table.gz (53/45): adding to final database dump
+0013.058 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wffilemods.table.gz (54/45): adding to final database dump
+0013.148 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfhits.table.tmpr5683.gz (55/45): adding to final database dump
+0013.151 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfhits.table.gz (56/45): adding to final database dump
+0013.152 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfhoover.table.tmpr0.gz (57/45): adding to final database dump
+0013.153 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfhoover.table.gz (58/45): adding to final database dump
+0013.153 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfissues.table.tmpr12183.gz (59/45): adding to final database dump
+0013.154 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfissues.table.gz (60/45): adding to final database dump
+0013.155 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfknownfilelist.table.gz (61/45): adding to final database dump
+0013.190 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wflivetraffichuman.table.tmpr1.gz (62/45): adding to final database dump
+0013.191 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wflivetraffichuman.table.gz (63/45): adding to final database dump
+0013.192 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wflocs.table.tmpr1001.gz (64/45): adding to final database dump
+0013.192 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wflocs.table.gz (65/45): adding to final database dump
+0013.193 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wflogins.table.tmpr740.gz (66/45): adding to final database dump
+0013.197 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wflogins.table.gz (67/45): adding to final database dump
+0013.197 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (68/45): adding to final database dump
+0013.198 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfls_2fa_secrets.table.gz (69/45): adding to final database dump
+0013.198 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfls_settings.table.tmpr1001.gz (70/45): adding to final database dump
+0013.199 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfls_settings.table.gz (71/45): adding to final database dump
+0013.199 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfnotifications.table.tmpr1001.gz (72/45): adding to final database dump
+0013.199 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfnotifications.table.gz (73/45): adding to final database dump
+0013.199 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfpendingissues.table.tmpr0.gz (74/45): adding to final database dump
+0013.200 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfpendingissues.table.gz (75/45): adding to final database dump
+0013.200 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfreversecache.table.tmpr1001.gz (76/45): adding to final database dump
+0013.200 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfreversecache.table.gz (77/45): adding to final database dump
+0013.201 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfsnipcache.table.tmpr0.gz (78/45): adding to final database dump
+0013.201 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfsnipcache.table.gz (79/45): adding to final database dump
+0013.201 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfstatus.table.tmpr45716.gz (80/45): adding to final database dump
+0013.208 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wfstatus.table.gz (81/45): adding to final database dump
+0013.208 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wftrafficrates.table.tmpr1.gz (82/45): adding to final database dump
+0013.209 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wftrafficrates.table.gz (83/45): adding to final database dump
+0013.209 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wpforms_tasks_meta.table.tmpr3.gz (84/45): adding to final database dump
+0013.210 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_wpforms_tasks_meta.table.gz (85/45): adding to final database dump
+0013.210 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_xsg_sitemap_meta.table.tmpr1001.gz (86/45): adding to final database dump
+0013.211 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db-table-wp_xsg_sitemap_meta.table.gz (87/45): adding to final database dump
+0013.213 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db.gz: finished writing out complete database file (5560 KB)
+0013.291 (0) Total database tables backed up: 45 (backup_2022-05-29-1414_rielt495ru_8051ad074397-db.gz, size: 5698048, sha1: d38e886155102ce4ef63ff90e83166330cbe8495, sha256: 698b4b6d0c35eb24f25959afe46855ad7421d79ccac0da48778f013c7165d08f)
+0013.296 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0013.296 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0013.297 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0013.297 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip: others: This file has not yet been successfully uploaded: will queue
+0013.297 (0) backup_2022-05-29-1414_rielt495ru_8051ad074397-db.gz: db: This file has not yet been successfully uploaded: will queue
+0013.298 (0) Saving backup history. Total backup size: 65.3 MB
+0013.299 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0013.301 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.302 (0) No remote despatch: user chose no remote backup service
+0013.302 (0) Recording as successfully uploaded: backup_2022-05-29-1414_rielt495ru_8051ad074397-plugins.zip
+0013.303 (0) Recording as successfully uploaded: backup_2022-05-29-1414_rielt495ru_8051ad074397-themes.zip
+0013.305 (0) Recording as successfully uploaded: backup_2022-05-29-1414_rielt495ru_8051ad074397-uploads.zip
+0013.306 (0) Recording as successfully uploaded: backup_2022-05-29-1414_rielt495ru_8051ad074397-others.zip
+0013.307 (0) Recording as successfully uploaded: backup_2022-05-29-1414_rielt495ru_8051ad074397-db.gz
+0013.309 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0013.309 (0) Number of backup sets in history: 1; groups (db): 1
+0013.310 (0) Examining (for databases) backup set with group_id=0, nonce=8051ad074397, datestamp=1653822888 (May 29 2022 11:14:48)
+0013.310 (0) This backup set is the backup set just made, so will not be deleted.
+0013.310 (0) Number of backup sets in history: 1; groups (files): 1
+0013.311 (0) Examining (for files) backup set with nonce=8051ad074397, datestamp=1653822888 (May 29 2022 11:14:48)
+0013.311 (0) This backup set is the backup set just made, so will not be deleted.
+0013.311 (0) This backup set is the backup set just made, so will not be deleted.
+0013.311 (0) This backup set is the backup set just made, so will not be deleted.
+0013.311 (0) This backup set is the backup set just made, so will not be deleted.
+0013.311 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.312 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0013.313 (0) Resume backup (8051ad074397, 0): finish run
+0013.314 (0) Decremented the semaphore (fd) by 1
+0013.314 (0) Semaphore (fd) unlocked
+0013.314 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0013.316 (0) The backup apparently succeeded and is now complete
+0013.317 (0) No email will/can be sent - the user has not configured an email address.
+0013.317 (0) Резервное копирование успешно завершено
